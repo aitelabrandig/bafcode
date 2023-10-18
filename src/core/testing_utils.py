@@ -1,6 +1,6 @@
 import unittest
 import os
-from src import app  # Adjust this import based on your framework's structure
+
 
 BASE_TEST_DIR = os.path.join(os.path.dirname(__file__), '..', 'tests')
 

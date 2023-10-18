@@ -27,8 +27,9 @@ class CommandProcessor:
         }
 
         # Get the command class or function from the mapping
+       
         command = command_mapping.get(command_name)
-
+      
         if not command:
             self.logger.error(f"Unknown command: {command_name}")
             raise ValueError(f"Unknown command: {command_name}")
@@ -36,7 +37,8 @@ class CommandProcessor:
         # Execute the command and get the response
         # Here, I'm assuming each command class has an "execute" method that takes in data and returns a response.
         # Adjust this based on your command implementations.
+        print('Executing the cmd...')
         response = command().execute(data)
-
+        print('Executed the cmd...')
         return response
 

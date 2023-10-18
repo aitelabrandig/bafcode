@@ -22,7 +22,7 @@ class MasterAgent:
 
         # Based on the data, decide which command to run or action to take
         # This is a placeholder and should be replaced with your actual decision-making logic
-        command_to_run = decide_command(data)
+        command_to_run = decide_command(data['message'])
 
         # Process the command and get the response
         command_processor = CommandProcessor()

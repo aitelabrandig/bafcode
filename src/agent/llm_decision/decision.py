@@ -1,6 +1,6 @@
 
 
-def decide_command(self, data):
+def decide_command(data):
         """
         Decide which command to run based on the provided data.
 

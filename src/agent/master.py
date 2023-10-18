@@ -8,15 +8,7 @@ class MasterAgent:
         
 
     def process(self, data):
-        """
-        Process the client's data and decide the appropriate action.
 
-        Args:
-        - data (dict): Data received from the client.
-
-        Returns:
-        - dict: Processed response data.
-        """
         # Log the received data (might be useful for debugging, but ensure no sensitive data is logged)
         self.logger.info(f"Received data: {data}")
 

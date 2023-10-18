@@ -330,3 +330,404 @@ ImportError: attempted relative import with no known parent package
 2023-10-18 19:20:49,107 - core.logger - INFO - Configurations loaded successfully.
 2023-10-18 19:20:56,201 - core.logger - INFO - App started on port 5000.
 2023-10-18 19:20:56,201 - core.logger - INFO - App started on port 5000.
+2023-10-18 20:36:33,629 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 20:36:33,629 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 20:36:33,902 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 20:36:33,902 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 20:40:37,044 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 20:40:37,044 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 20:41:29,199 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 20:41:29,199 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 20:42:56,875 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 20:42:56,875 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 20:43:29,758 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 20:43:29,758 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 20:43:50,347 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 20:43:50,347 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 20:44:39,372 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 20:44:39,372 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 20:55:36,115 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 20:55:36,115 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 20:58:04,796 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 20:58:04,796 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:20:24,432 - core.error_handler - ERROR - Traceback (most recent call last):
+  File "app.py", line 3, in <module>
+    from agent.master import MasterAgent
+  File "/Users/mac/Desktop/Github/BafCloud/BafCodeFramework/src/agent/master.py", line 3, in <module>
+    from .llm_decision.decision import decide_command
+  File "/Users/mac/Desktop/Github/BafCloud/BafCodeFramework/src/agent/llm_decision/decision.py", line 1, in <module>
+    from ...llms.openai_llm import OpenAILLM
+ValueError: attempted relative import beyond top-level package
+
+2023-10-18 21:22:26,969 - core.error_handler - ERROR - Traceback (most recent call last):
+  File "app.py", line 3, in <module>
+    from agent.master import MasterAgent
+  File "/Users/mac/Desktop/Github/BafCloud/BafCodeFramework/src/agent/master.py", line 3, in <module>
+    from .llm_decision.decision import decide_command
+  File "/Users/mac/Desktop/Github/BafCloud/BafCodeFramework/src/agent/llm_decision/decision.py", line 1, in <module>
+    from ...llms.openai_llm import OpenAILLM
+ValueError: attempted relative import beyond top-level package
+
+2023-10-18 21:23:39,683 - core.error_handler - ERROR - Traceback (most recent call last):
+  File "app.py", line 3, in <module>
+    from agent.master import MasterAgent
+  File "/Users/mac/Desktop/Github/BafCloud/BafCodeFramework/src/agent/master.py", line 3, in <module>
+    from .llm_decision.decision import decide_command
+  File "/Users/mac/Desktop/Github/BafCloud/BafCodeFramework/src/agent/llm_decision/decision.py", line 1, in <module>
+    from llms.openai_llm import OpenAILLM
+  File "/Users/mac/Desktop/Github/BafCloud/BafCodeFramework/src/llms/openai_llm.py", line 3, in <module>
+    from ..config import Config
+ValueError: attempted relative import beyond top-level package
+
+2023-10-18 21:23:58,881 - core.error_handler - ERROR - Traceback (most recent call last):
+  File "app.py", line 3, in <module>
+    from agent.master import MasterAgent
+  File "/Users/mac/Desktop/Github/BafCloud/BafCodeFramework/src/agent/master.py", line 3, in <module>
+    from .llm_decision.decision import decide_command
+  File "/Users/mac/Desktop/Github/BafCloud/BafCodeFramework/src/agent/llm_decision/decision.py", line 1, in <module>
+    from llms.openai_llm import OpenAILLM
+  File "/Users/mac/Desktop/Github/BafCloud/BafCodeFramework/src/llms/openai_llm.py", line 4, in <module>
+    from ..prompts import MasterPrompts
+ValueError: attempted relative import beyond top-level package
+
+2023-10-18 21:24:09,827 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:24:09,827 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:24:10,204 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:24:10,204 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:26:44,345 - core.logger - ERROR - Error processing the request: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2023-10-18 21:26:44,345 - core.logger - ERROR - Error processing the request: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2023-10-18 21:26:51,581 - core.logger - ERROR - Error processing the request: 400 Bad Request: Failed to decode JSON object: Expecting ',' delimiter: line 3 column 5 (char 51)
+2023-10-18 21:26:51,581 - core.logger - ERROR - Error processing the request: 400 Bad Request: Failed to decode JSON object: Expecting ',' delimiter: line 3 column 5 (char 51)
+2023-10-18 21:27:00,100 - core.logger - INFO - Received data: {'message': 'Give last emails in my inbox', 'user_id': 1}
+2023-10-18 21:27:00,100 - core.logger - INFO - Received data: {'message': 'Give last emails in my inbox', 'user_id': 1}
+2023-10-18 21:27:00,100 - core.logger - ERROR - Error processing the request: decide_command() missing 1 required positional argument: 'commands'
+2023-10-18 21:27:00,100 - core.logger - ERROR - Error processing the request: decide_command() missing 1 required positional argument: 'commands'
+2023-10-18 21:27:47,557 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:27:47,557 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:27:56,148 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:27:56,148 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:28:58,721 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:28:58,721 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:29:05,280 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:29:05,280 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:29:17,973 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:29:17,973 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:29:36,756 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:29:36,756 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:30:00,551 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:30:00,551 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:30:07,840 - core.logger - INFO - App started on port 5000.
+2023-10-18 21:30:07,840 - core.logger - INFO - App started on port 5000.
+2023-10-18 21:30:07,908 - core.logger - INFO - App started on port 5000.
+2023-10-18 21:30:07,908 - core.logger - INFO - App started on port 5000.
+2023-10-18 21:30:10,430 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:30:10,430 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:30:10,786 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:30:10,786 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:30:13,496 - core.logger - INFO - Received data: {'message': 'Give last emails in my inbox', 'user_id': 1}
+2023-10-18 21:30:13,496 - core.logger - INFO - Received data: {'message': 'Give last emails in my inbox', 'user_id': 1}
+2023-10-18 21:30:13,497 - core.logger - ERROR - Error processing the request: decide_command_prompt() missing 1 required positional argument: 'commands'
+2023-10-18 21:30:13,497 - core.logger - ERROR - Error processing the request: decide_command_prompt() missing 1 required positional argument: 'commands'
+2023-10-18 21:30:31,552 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:30:31,552 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:30:34,697 - core.logger - INFO - Received data: {'message': 'Give last emails in my inbox', 'user_id': 1}
+2023-10-18 21:30:34,697 - core.logger - INFO - Received data: {'message': 'Give last emails in my inbox', 'user_id': 1}
+2023-10-18 21:30:34,697 - core.logger - ERROR - Error processing with OpenAI LLM: string indices must be integers
+2023-10-18 21:30:34,697 - core.logger - ERROR - Error processing with OpenAI LLM: string indices must be integers
+2023-10-18 21:30:34,698 - core.logger - ERROR - Error processing the request: 'response'
+2023-10-18 21:30:34,698 - core.logger - ERROR - Error processing the request: 'response'
+2023-10-18 21:33:18,142 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:33:18,142 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:33:31,778 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:33:31,778 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:33:38,560 - core.logger - INFO - Received data: {'message': 'Give last emails in my inbox', 'user_id': 1}
+2023-10-18 21:33:38,560 - core.logger - INFO - Received data: {'message': 'Give last emails in my inbox', 'user_id': 1}
+2023-10-18 21:33:38,560 - core.logger - ERROR - Error processing the request: string indices must be integers
+2023-10-18 21:33:38,560 - core.logger - ERROR - Error processing the request: string indices must be integers
+2023-10-18 21:33:52,597 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:33:52,597 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:33:52,796 - core.logger - INFO - App started on port 5000.
+2023-10-18 21:33:52,796 - core.logger - INFO - App started on port 5000.
+2023-10-18 21:33:52,868 - core.logger - INFO - App started on port 5000.
+2023-10-18 21:33:52,868 - core.logger - INFO - App started on port 5000.
+2023-10-18 21:33:55,019 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:33:55,019 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:33:55,374 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:33:55,374 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:33:57,722 - core.logger - INFO - Received data: {'message': 'Give last emails in my inbox', 'user_id': 1}
+2023-10-18 21:33:57,722 - core.logger - INFO - Received data: {'message': 'Give last emails in my inbox', 'user_id': 1}
+2023-10-18 21:33:57,722 - core.logger - ERROR - Error processing the request: string indices must be integers
+2023-10-18 21:33:57,722 - core.logger - ERROR - Error processing the request: string indices must be integers
+2023-10-18 21:34:29,377 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:34:29,377 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:34:32,791 - core.logger - INFO - Received data: {'message': 'Give last emails in my inbox', 'user_id': 1}
+2023-10-18 21:34:32,791 - core.logger - INFO - Received data: {'message': 'Give last emails in my inbox', 'user_id': 1}
+2023-10-18 21:34:33,900 - core.logger - INFO - Executing command: None
+2023-10-18 21:34:33,900 - core.logger - INFO - Executing command: None
+2023-10-18 21:34:33,901 - core.logger - ERROR - Unknown command: None
+2023-10-18 21:34:33,901 - core.logger - ERROR - Unknown command: None
+2023-10-18 21:34:33,902 - core.logger - ERROR - Error processing the request: Unknown command: None
+2023-10-18 21:34:33,902 - core.logger - ERROR - Error processing the request: Unknown command: None
+2023-10-18 21:36:50,361 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:36:50,361 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:36:53,631 - core.logger - INFO - Received data: {'message': 'Give last emails in my inbox', 'user_id': 1}
+2023-10-18 21:36:53,631 - core.logger - INFO - Received data: {'message': 'Give last emails in my inbox', 'user_id': 1}
+2023-10-18 21:36:54,867 - core.logger - ERROR - Error processing the request: string indices must be integers
+2023-10-18 21:36:54,867 - core.logger - ERROR - Error processing the request: string indices must be integers
+2023-10-18 21:37:14,313 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:37:14,313 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:37:17,400 - core.logger - INFO - App started on port 5000.
+2023-10-18 21:37:17,400 - core.logger - INFO - App started on port 5000.
+2023-10-18 21:37:17,467 - core.logger - INFO - App started on port 5000.
+2023-10-18 21:37:17,467 - core.logger - INFO - App started on port 5000.
+2023-10-18 21:37:19,734 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:37:19,734 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:37:20,075 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:37:20,075 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:37:22,012 - core.logger - INFO - Received data: {'message': 'Give last emails in my inbox', 'user_id': 1}
+2023-10-18 21:37:22,012 - core.logger - INFO - Received data: {'message': 'Give last emails in my inbox', 'user_id': 1}
+2023-10-18 21:37:23,348 - core.logger - ERROR - Error processing the request: string indices must be integers
+2023-10-18 21:37:23,348 - core.logger - ERROR - Error processing the request: string indices must be integers
+2023-10-18 21:38:30,343 - core.logger - INFO - Received data: {'message': 'Give last emails in my inbox', 'user_id': 1}
+2023-10-18 21:38:30,343 - core.logger - INFO - Received data: {'message': 'Give last emails in my inbox', 'user_id': 1}
+2023-10-18 21:38:32,061 - core.logger - ERROR - Error processing the request: string indices must be integers
+2023-10-18 21:38:32,061 - core.logger - ERROR - Error processing the request: string indices must be integers
+2023-10-18 21:39:04,298 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:39:04,298 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:39:09,177 - core.logger - INFO - Received data: {'message': 'Give last emails in my inbox', 'user_id': 1}
+2023-10-18 21:39:09,177 - core.logger - INFO - Received data: {'message': 'Give last emails in my inbox', 'user_id': 1}
+2023-10-18 21:39:10,779 - core.logger - INFO - Executing command: getLastEmail
+2023-10-18 21:39:10,779 - core.logger - INFO - Executing command: getLastEmail
+2023-10-18 21:39:11,161 - core.logger - INFO - Generating response for data: {'userId': 1, 'id': 1, 'title': 'delectus aut autem', 'completed': False}
+2023-10-18 21:39:11,161 - core.logger - INFO - Generating response for data: {'userId': 1, 'id': 1, 'title': 'delectus aut autem', 'completed': False}
+2023-10-18 21:41:53,949 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:41:53,949 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:43:11,685 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:43:11,685 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:43:24,365 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:43:24,365 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:46:00,571 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:46:00,571 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:46:42,675 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:46:42,675 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:47:04,502 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:47:04,502 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:47:20,227 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:47:20,227 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:47:41,999 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:47:41,999 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:47:47,735 - core.logger - INFO - Received data: {'message': 'Give last emails in my inbox', 'user_id': 1}
+2023-10-18 21:47:47,735 - core.logger - INFO - Received data: {'message': 'Give last emails in my inbox', 'user_id': 1}
+2023-10-18 21:47:49,326 - core.logger - INFO - Executing command: getLastEmail
+2023-10-18 21:47:49,326 - core.logger - INFO - Executing command: getLastEmail
+2023-10-18 21:47:49,686 - core.logger - INFO - Generating response for data: {'userId': 1, 'id': 1, 'title': 'delectus aut autem', 'completed': False}
+2023-10-18 21:47:49,686 - core.logger - INFO - Generating response for data: {'userId': 1, 'id': 1, 'title': 'delectus aut autem', 'completed': False}
+2023-10-18 21:49:57,234 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:49:57,234 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:49:57,941 - core.logger - INFO - App started on port 5000.
+2023-10-18 21:49:57,941 - core.logger - INFO - App started on port 5000.
+2023-10-18 21:49:58,012 - core.logger - INFO - App started on port 5000.
+2023-10-18 21:49:58,012 - core.logger - INFO - App started on port 5000.
+2023-10-18 21:50:00,203 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:50:00,203 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:50:00,590 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:50:00,590 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:50:07,882 - core.logger - INFO - Received data: {'message': 'Give last emails in my inbox', 'user_id': 1}
+2023-10-18 21:50:07,882 - core.logger - INFO - Received data: {'message': 'Give last emails in my inbox', 'user_id': 1}
+2023-10-18 21:50:09,175 - core.logger - INFO - Executing command: getLastEmail
+2023-10-18 21:50:09,175 - core.logger - INFO - Executing command: getLastEmail
+2023-10-18 21:50:09,530 - core.logger - INFO - Generating response for data: {'status': 'OK', 'code': 200, 'total': 1, 'data': [{'title': 'Hatter, who turned.', 'author': 'Torey Stark', 'genre': 'Tempore', 'content': 'Majesty!\' the soldiers remaining behind to execute the unfortunate gardeners, who ran to Alice to find that she began nursing her child again, singing a sort of present!\' thought Alice. \'I wonder what I like"!\' \'You might just as I\'d taken the highest tree in the air. Even the Duchess said to the Knave. The Knave did so, and giving it a minute or two, which gave the Pigeon the opportunity of saying to herself \'Now I can creep under the circumstances. There was a bright brass plate with the.'}]}
+2023-10-18 21:50:09,530 - core.logger - INFO - Generating response for data: {'status': 'OK', 'code': 200, 'total': 1, 'data': [{'title': 'Hatter, who turned.', 'author': 'Torey Stark', 'genre': 'Tempore', 'content': 'Majesty!\' the soldiers remaining behind to execute the unfortunate gardeners, who ran to Alice to find that she began nursing her child again, singing a sort of present!\' thought Alice. \'I wonder what I like"!\' \'You might just as I\'d taken the highest tree in the air. Even the Duchess said to the Knave. The Knave did so, and giving it a minute or two, which gave the Pigeon the opportunity of saying to herself \'Now I can creep under the circumstances. There was a bright brass plate with the.'}]}
+2023-10-18 21:52:23,483 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:52:23,483 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:54:03,120 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:54:03,120 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 21:54:07,696 - core.logger - INFO - Received data: {'message': 'Give last emails in my inbox', 'user_id': 1}
+2023-10-18 21:54:07,696 - core.logger - INFO - Received data: {'message': 'Give last emails in my inbox', 'user_id': 1}
+2023-10-18 21:54:08,497 - core.logger - INFO - Executing command: getLastEmail
+2023-10-18 21:54:08,497 - core.logger - INFO - Executing command: getLastEmail
+2023-10-18 21:54:08,846 - core.logger - INFO - Generating response for data: {'status': 'OK', 'code': 200, 'total': 1, 'data': [{'title': 'She was a very.', 'author': 'Dariana Rippin', 'genre': 'Maxime', 'content': 'Queen say only yesterday you deserved to be seen--everything seemed to be otherwise than what you would seem to encourage the witness at all: he kept shifting from one foot to the table, half hoping that the Queen say only yesterday you deserved to be trampled under its feet, \'I move that the reason they\'re called lessons,\' the Gryphon repeated impatiently: \'it begins "I passed by his garden."\' Alice did not quite like the three gardeners at it, and found that her neck would bend about easily.'}]}
+2023-10-18 21:54:08,846 - core.logger - INFO - Generating response for data: {'status': 'OK', 'code': 200, 'total': 1, 'data': [{'title': 'She was a very.', 'author': 'Dariana Rippin', 'genre': 'Maxime', 'content': 'Queen say only yesterday you deserved to be seen--everything seemed to be otherwise than what you would seem to encourage the witness at all: he kept shifting from one foot to the table, half hoping that the Queen say only yesterday you deserved to be trampled under its feet, \'I move that the reason they\'re called lessons,\' the Gryphon repeated impatiently: \'it begins "I passed by his garden."\' Alice did not quite like the three gardeners at it, and found that her neck would bend about easily.'}]}
+2023-10-18 22:05:00,500 - core.logger - INFO - Received data: {'message': 'Give last emails in my inbox', 'user_id': 1}
+2023-10-18 22:05:00,500 - core.logger - INFO - Received data: {'message': 'Give last emails in my inbox', 'user_id': 1}
+2023-10-18 22:05:01,848 - core.logger - INFO - Executing command: getLastEmail
+2023-10-18 22:05:01,848 - core.logger - INFO - Executing command: getLastEmail
+2023-10-18 22:05:02,268 - core.logger - INFO - Generating response for data: {'status': 'OK', 'code': 200, 'total': 1, 'data': [{'title': 'The master was an.', 'author': 'Denis Bechtelar', 'genre': 'Qui', 'content': "I was thinking I should frighten them out again. Suddenly she came upon a neat little house, and wondering what to do anything but sit with its legs hanging down, but generally, just as usual. 'Come, there's half my plan done now! How puzzling all these changes are! I'm never sure what I'm going to dive in among the people near the door as you can--' 'Swim after them!' screamed the Pigeon. 'I'm NOT a serpent, I tell you!' But she did not feel encouraged to ask them what the name 'Alice!'."}]}
+2023-10-18 22:05:02,268 - core.logger - INFO - Generating response for data: {'status': 'OK', 'code': 200, 'total': 1, 'data': [{'title': 'The master was an.', 'author': 'Denis Bechtelar', 'genre': 'Qui', 'content': "I was thinking I should frighten them out again. Suddenly she came upon a neat little house, and wondering what to do anything but sit with its legs hanging down, but generally, just as usual. 'Come, there's half my plan done now! How puzzling all these changes are! I'm never sure what I'm going to dive in among the people near the door as you can--' 'Swim after them!' screamed the Pigeon. 'I'm NOT a serpent, I tell you!' But she did not feel encouraged to ask them what the name 'Alice!'."}]}
+2023-10-18 22:33:58,641 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:33:58,641 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:34:12,353 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:34:12,353 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:34:54,557 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:34:54,557 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:35:41,817 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:35:41,817 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:40:11,062 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:40:11,062 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:41:10,921 - core.error_handler - ERROR - Traceback (most recent call last):
+  File "/Users/mac/Desktop/Github/BafCloud/BafCodeFramework/src/app.py", line 3, in <module>
+    from agent.master import MasterAgent
+  File "/Users/mac/Desktop/Github/BafCloud/BafCodeFramework/src/agent/master.py", line 3, in <module>
+    from .llm_decision.decision import decide_command
+  File "/Users/mac/Desktop/Github/BafCloud/BafCodeFramework/src/agent/llm_decision/decision.py", line 3, in <module>
+    from prompts import MasterPrompts
+  File "/Users/mac/Desktop/Github/BafCloud/BafCodeFramework/src/prompts/__init__.py", line 3, in <module>
+    from .email.last_emails_prompt import LastEmailsPrompt
+ImportError: cannot import name 'LastEmailsPrompt' from 'prompts.email.last_emails_prompt' (/Users/mac/Desktop/Github/BafCloud/BafCodeFramework/src/prompts/email/last_emails_prompt.py)
+
+2023-10-18 22:48:26,348 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:48:26,348 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:48:26,696 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:48:26,696 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:48:33,743 - core.logger - INFO - Received data: {'message': 'Give last emails in my inbox', 'user_id': 1}
+2023-10-18 22:48:33,743 - core.logger - INFO - Received data: {'message': 'Give last emails in my inbox', 'user_id': 1}
+2023-10-18 22:48:35,572 - core.logger - INFO - Executing command: getLastEmail
+2023-10-18 22:48:35,572 - core.logger - INFO - Executing command: getLastEmail
+2023-10-18 22:48:36,131 - core.logger - ERROR - Error processing the request: 'LastEmailsPrompt' object has no attribute 'get_prompt'
+2023-10-18 22:48:36,131 - core.logger - ERROR - Error processing the request: 'LastEmailsPrompt' object has no attribute 'get_prompt'
+2023-10-18 22:49:01,231 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:49:01,231 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:49:03,551 - core.logger - INFO - Received data: {'message': 'Give last emails in my inbox', 'user_id': 1}
+2023-10-18 22:49:03,551 - core.logger - INFO - Received data: {'message': 'Give last emails in my inbox', 'user_id': 1}
+2023-10-18 22:49:04,367 - core.logger - INFO - Executing command: getLastEmail
+2023-10-18 22:49:04,367 - core.logger - INFO - Executing command: getLastEmail
+2023-10-18 22:49:04,722 - core.logger - ERROR - Error processing the request: get_last_emails() takes 1 positional argument but 2 were given
+2023-10-18 22:49:04,722 - core.logger - ERROR - Error processing the request: get_last_emails() takes 1 positional argument but 2 were given
+2023-10-18 22:50:25,574 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:50:25,574 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:50:27,817 - core.logger - INFO - Received data: {'message': 'Give last emails in my inbox', 'user_id': 1}
+2023-10-18 22:50:27,817 - core.logger - INFO - Received data: {'message': 'Give last emails in my inbox', 'user_id': 1}
+2023-10-18 22:50:30,164 - core.logger - INFO - Executing command: getLastEmail
+2023-10-18 22:50:30,164 - core.logger - INFO - Executing command: getLastEmail
+2023-10-18 22:50:30,508 - core.logger - ERROR - Error processing the request: get_last_emails() takes 1 positional argument but 2 were given
+2023-10-18 22:50:30,508 - core.logger - ERROR - Error processing the request: get_last_emails() takes 1 positional argument but 2 were given
+2023-10-18 22:51:44,463 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:51:44,463 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:51:45,646 - core.logger - INFO - App started on port 5000.
+2023-10-18 22:51:45,646 - core.logger - INFO - App started on port 5000.
+2023-10-18 22:51:45,718 - core.logger - INFO - App started on port 5000.
+2023-10-18 22:51:45,718 - core.logger - INFO - App started on port 5000.
+2023-10-18 22:51:47,879 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:51:47,879 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:51:48,225 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:51:48,225 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:51:50,461 - core.logger - INFO - Received data: {'message': 'Give last emails in my inbox', 'user_id': 1}
+2023-10-18 22:51:50,461 - core.logger - INFO - Received data: {'message': 'Give last emails in my inbox', 'user_id': 1}
+2023-10-18 22:51:52,188 - core.logger - INFO - Executing command: getLastEmail
+2023-10-18 22:51:52,188 - core.logger - INFO - Executing command: getLastEmail
+2023-10-18 22:51:52,567 - core.logger - ERROR - Error processing the request: get_last_emails() takes 1 positional argument but 2 were given
+2023-10-18 22:51:52,567 - core.logger - ERROR - Error processing the request: get_last_emails() takes 1 positional argument but 2 were given
+2023-10-18 22:52:27,583 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:52:27,583 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:52:44,308 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:52:44,308 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:52:47,981 - core.logger - INFO - App started on port 5000.
+2023-10-18 22:52:47,981 - core.logger - INFO - App started on port 5000.
+2023-10-18 22:52:48,053 - core.logger - INFO - App started on port 5000.
+2023-10-18 22:52:48,053 - core.logger - INFO - App started on port 5000.
+2023-10-18 22:52:53,294 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:52:53,294 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:52:53,650 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:52:53,650 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:52:56,197 - core.logger - INFO - Received data: {'message': 'Give last emails in my inbox', 'user_id': 1}
+2023-10-18 22:52:56,197 - core.logger - INFO - Received data: {'message': 'Give last emails in my inbox', 'user_id': 1}
+2023-10-18 22:52:58,189 - core.logger - INFO - Executing command: getLastEmail
+2023-10-18 22:52:58,189 - core.logger - INFO - Executing command: getLastEmail
+2023-10-18 22:52:58,583 - core.logger - INFO - Generating response for data:  
+         Please provide a concise summary of the most recent emails from the user's inbox.
+
+            Instructions:
+            1. Ensure the confidentiality and privacy of the user's data at all times.
+            2. Summarize each email without compromising the essence of its content.
+            3. Prioritize relevance and brevity in your summaries.
+            4. Limit your response to the information present in the provided data.
+
+            Email Data:
+            <prompts.email.last_emails_prompt.LastEmailsPrompt object at 0x10d19e6d0>
+
+
+           
+2023-10-18 22:52:58,583 - core.logger - INFO - Generating response for data:  
+         Please provide a concise summary of the most recent emails from the user's inbox.
+
+            Instructions:
+            1. Ensure the confidentiality and privacy of the user's data at all times.
+            2. Summarize each email without compromising the essence of its content.
+            3. Prioritize relevance and brevity in your summaries.
+            4. Limit your response to the information present in the provided data.
+
+            Email Data:
+            <prompts.email.last_emails_prompt.LastEmailsPrompt object at 0x10d19e6d0>
+
+
+           
+2023-10-18 22:54:13,944 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:54:13,944 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:54:22,513 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:54:22,513 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:54:25,143 - core.logger - INFO - Received data: {'message': 'Give last emails in my inbox', 'user_id': 1}
+2023-10-18 22:54:25,143 - core.logger - INFO - Received data: {'message': 'Give last emails in my inbox', 'user_id': 1}
+2023-10-18 22:54:25,991 - core.logger - INFO - Executing command: getLastEmail
+2023-10-18 22:54:25,991 - core.logger - INFO - Executing command: getLastEmail
+2023-10-18 22:54:26,331 - core.logger - ERROR - Error processing the request: get_last_emails() takes 1 positional argument but 2 were given
+2023-10-18 22:54:26,331 - core.logger - ERROR - Error processing the request: get_last_emails() takes 1 positional argument but 2 were given
+2023-10-18 22:54:50,894 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:54:50,894 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:55:28,266 - core.logger - INFO - App started on port 5000.
+2023-10-18 22:55:28,266 - core.logger - INFO - App started on port 5000.
+2023-10-18 22:55:28,339 - core.logger - INFO - App started on port 5000.
+2023-10-18 22:55:28,339 - core.logger - INFO - App started on port 5000.
+2023-10-18 22:55:30,859 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:55:30,859 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:55:31,186 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:55:31,186 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:55:38,483 - core.logger - INFO - Received data: {'message': 'Give last emails in my inbox', 'user_id': 1}
+2023-10-18 22:55:38,483 - core.logger - INFO - Received data: {'message': 'Give last emails in my inbox', 'user_id': 1}
+2023-10-18 22:55:39,214 - core.logger - INFO - Executing command: getLastEmail
+2023-10-18 22:55:39,214 - core.logger - INFO - Executing command: getLastEmail
+2023-10-18 22:55:39,558 - core.logger - ERROR - Error processing the request: get_last_emails() takes 1 positional argument but 2 were given
+2023-10-18 22:55:39,558 - core.logger - ERROR - Error processing the request: get_last_emails() takes 1 positional argument but 2 were given
+2023-10-18 22:56:36,777 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:56:36,777 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:56:38,319 - core.logger - INFO - App started on port 5000.
+2023-10-18 22:56:38,319 - core.logger - INFO - App started on port 5000.
+2023-10-18 22:56:38,386 - core.logger - INFO - App started on port 5000.
+2023-10-18 22:56:38,386 - core.logger - INFO - App started on port 5000.
+2023-10-18 22:56:42,813 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:56:42,813 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:56:43,161 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:56:43,161 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:56:45,262 - core.logger - INFO - Received data: {'message': 'Give last emails in my inbox', 'user_id': 1}
+2023-10-18 22:56:45,262 - core.logger - INFO - Received data: {'message': 'Give last emails in my inbox', 'user_id': 1}
+2023-10-18 22:56:47,560 - core.logger - INFO - Executing command: getLastEmail
+2023-10-18 22:56:47,560 - core.logger - INFO - Executing command: getLastEmail
+2023-10-18 22:56:47,920 - core.logger - INFO - Generating response for data:  
+         Please provide a concise summary of the most recent emails from the user's inbox.
+
+            Instructions:
+            1. Ensure the confidentiality and privacy of the user's data at all times.
+            2. Summarize each email without compromising the essence of its content.
+            3. Prioritize relevance and brevity in your summaries.
+            4. Limit your response to the information present in the provided data.
+
+            Email Data:
+            {'status': 'OK', 'code': 200, 'total': 1, 'data': [{'title': "Queen. 'Sentence.", 'author': 'Modesta Kulas', 'genre': 'Temporibus', 'content': "English!' said the Cat, 'a dog's not mad. You grant that?' 'I suppose they are the jurors.' She said this last word two or three pairs of tiny white kid gloves: she took courage, and went back for a conversation. Alice felt dreadfully puzzled. The Hatter's remark seemed to have finished,' said the Dormouse, after thinking a minute or two, and the three gardeners instantly jumped up, and there was a large ring, with the Queen added to one of the March Hare said in a trembling voice to a snail."}]}
+
+
+           
+2023-10-18 22:56:47,920 - core.logger - INFO - Generating response for data:  
+         Please provide a concise summary of the most recent emails from the user's inbox.
+
+            Instructions:
+            1. Ensure the confidentiality and privacy of the user's data at all times.
+            2. Summarize each email without compromising the essence of its content.
+            3. Prioritize relevance and brevity in your summaries.
+            4. Limit your response to the information present in the provided data.
+
+            Email Data:
+            {'status': 'OK', 'code': 200, 'total': 1, 'data': [{'title': "Queen. 'Sentence.", 'author': 'Modesta Kulas', 'genre': 'Temporibus', 'content': "English!' said the Cat, 'a dog's not mad. You grant that?' 'I suppose they are the jurors.' She said this last word two or three pairs of tiny white kid gloves: she took courage, and went back for a conversation. Alice felt dreadfully puzzled. The Hatter's remark seemed to have finished,' said the Dormouse, after thinking a minute or two, and the three gardeners instantly jumped up, and there was a large ring, with the Queen added to one of the March Hare said in a trembling voice to a snail."}]}
+
+
+           
+2023-10-18 22:57:07,029 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:57:07,029 - core.logger - INFO - Configurations loaded successfully.

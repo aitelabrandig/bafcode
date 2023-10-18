@@ -12,7 +12,7 @@ class LLMsConfig:
 
     # OpenAI LLM configurations
     OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")  # Should ideally be loaded from a secure environment variable or vault
-    OPENAI_ENGINE = "gpt-3.5-turbo-instruct"  # Default engine for OpenAI requests
+    OPENAI_ENGINE = "gpt-3.5-turbo"  # Default engine for OpenAI requests
     OPENAI_MAX_TOKENS = 150  # Default maximum tokens for responses from OpenAI
 
     # If you have other LLMs or external services, add their configurations similarly:

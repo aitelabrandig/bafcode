@@ -45,7 +45,7 @@ def generate():
         master_agent = MasterAgent()
         response = master_agent.process(data)
         responder = Responder()
-        final_response = responder.generate(response)
+        final_response = responder.generate(response, data['message'])
 
         # Return the final response
         return jsonify({"status": "OK", "message": "Processed successfully!", "data": final_response}), 200

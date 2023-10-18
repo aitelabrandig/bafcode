@@ -1,21 +1,20 @@
+from llms.openai_llm import OpenAILLM
+from ..commands import command_mapping
+from prompts import MasterPrompts
 
 
-def decide_command(data):
-        """
-        Decide which command to run based on the provided data.
+import re
 
-        Args:
-        - data (dict): Data received from the client.
 
-        Returns:
-        - str: The name of the command to run.
-        """
-        # Placeholder logic, replace with actual decision-making logic
-        # For example, based on certain keywords or parameters in the data, decide the command to execute
-        if "email" in data:
-            return "getLastEmail"
-        elif "weather" in data:
-            return "getCurrentWeather"
-        # ... Add more conditions as needed
-        else:
-            return "defaultCommand"
+
+def decide_command(message):
+    commands = list(command_mapping.keys())
+    prompt = MasterPrompts.decide_command_prompt(commands)
+    print('Message: ',message)
+    llm_response = OpenAILLM().process(message,prompt)
+    command = llm_response
+    print('Command: ',command)
+    return command
+
+    
+

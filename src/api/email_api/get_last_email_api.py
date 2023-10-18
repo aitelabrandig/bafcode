@@ -1,8 +1,7 @@
 import requests
-import logging
 from core import framework_logger
 
-EMAIL_API_ENDPOINT = "http://127.0.0.1:8005/api/emails"  # Placeholder email API endpoint
+EMAIL_API_ENDPOINT = "https://fakerapi.it/api/v1/texts?_quantity=1&_characters=500"  # Placeholder email API endpoint
 
 def get_last_email(user_id):
     """

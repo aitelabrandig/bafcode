@@ -1,28 +1,17 @@
-import logging
 from core import framework_logger
+from llms.openai_llm import OpenAILLM
+from prompts import ResponderPrompt
 
 class Responder:
     def __init__(self):
         self.logger = framework_logger
 
-    def generate(self, data):
-        """
-        Generate a response based on the provided data.
+    def generate(self,data,message):
 
-        Args:
-        - data (dict): Data based on which the response should be generated.
-
-        Returns:
-        - dict: Response data.
-        """
         try:
             # Log the received data (might be useful for debugging, but ensure no sensitive data is logged)
             self.logger.info(f"Generating response for data: {data}")
-
-            response = {
-                'message': f"Generated response for data: {data}",
-                'status': "success"
-            }
+            response = OpenAILLM().process(message,data)
             return response
 
         except Exception as e:

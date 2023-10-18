@@ -1,0 +1,4 @@
+cryptography
+Flask
+requests
+python-dotenv

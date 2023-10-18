@@ -11,9 +11,7 @@ app = Flask(__name__)
 
 # Load configurations
 try:
-
     app.config.from_object(Config)
-
     framework_logger.info("Configurations loaded successfully.")
 except Exception as e:
     framework_logger.error(f"Error loading configurations: {str(e)}")
@@ -31,9 +29,6 @@ def health_check():
 
 @app.route('/generate', methods=['POST'])
 def generate():
-    """
-    Route to process client requests using the master agent.
-    """
     try:
         # Get data from the client request
         data = request.json
@@ -41,7 +36,6 @@ def generate():
         if not data:
             return jsonify({"status": "Error", "message": "No data provided!"}), 400
 
-        # Initialize the master agent and process the request
         master_agent = MasterAgent()
         response = master_agent.process(data)
         responder = Responder()
@@ -52,6 +46,9 @@ def generate():
     except Exception as e:
         framework_logger.error(f"Error processing the request: {str(e)}")
         return jsonify({"status": "Error", "message": "An error occurred while processing the request!"}), 500
+
+
+
 
 
 if __name__ == "__main__":

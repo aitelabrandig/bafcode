@@ -731,3 +731,103 @@ ImportError: cannot import name 'LastEmailsPrompt' from 'prompts.email.last_emai
            
 2023-10-18 22:57:07,029 - core.logger - INFO - Configurations loaded successfully.
 2023-10-18 22:57:07,029 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 22:58:05,519 - core.logger - INFO - Received data: {'message': 'Is there any last emails in my inbox?', 'user_id': 1}
+2023-10-18 22:58:05,519 - core.logger - INFO - Received data: {'message': 'Is there any last emails in my inbox?', 'user_id': 1}
+2023-10-18 22:58:06,767 - core.logger - INFO - Executing command: getLastEmail
+2023-10-18 22:58:06,767 - core.logger - INFO - Executing command: getLastEmail
+2023-10-18 22:58:07,095 - core.logger - INFO - Generating response for data:  
+         Please provide a concise summary of the most recent emails from the user's inbox.
+
+            Instructions:
+            1. Ensure the confidentiality and privacy of the user's data at all times.
+            2. Summarize each email without compromising the essence of its content.
+            3. Prioritize relevance and brevity in your summaries.
+            4. Limit your response to the information present in the provided data.
+
+            Email Data:
+            {'status': 'OK', 'code': 200, 'total': 1, 'data': [{'title': 'Alice panted as.', 'author': 'Lenna Schumm', 'genre': 'Nesciunt', 'content': "March Hare. 'Yes, please do!' but the cook was leaning over the edge of her going, though she knew the right distance--but then I wonder what they'll do well enough; and what does it to speak first, 'why your cat grins like that?' 'It's a Cheshire cat,' said the King. 'I can't explain MYSELF, I'm afraid, but you might like to show you! A little bright-eyed terrier, you know, with oh, such long curly brown hair! And it'll fetch things when you come to the seaside once in her hands, and she."}]}
+
+
+           
+2023-10-18 22:58:07,095 - core.logger - INFO - Generating response for data:  
+         Please provide a concise summary of the most recent emails from the user's inbox.
+
+            Instructions:
+            1. Ensure the confidentiality and privacy of the user's data at all times.
+            2. Summarize each email without compromising the essence of its content.
+            3. Prioritize relevance and brevity in your summaries.
+            4. Limit your response to the information present in the provided data.
+
+            Email Data:
+            {'status': 'OK', 'code': 200, 'total': 1, 'data': [{'title': 'Alice panted as.', 'author': 'Lenna Schumm', 'genre': 'Nesciunt', 'content': "March Hare. 'Yes, please do!' but the cook was leaning over the edge of her going, though she knew the right distance--but then I wonder what they'll do well enough; and what does it to speak first, 'why your cat grins like that?' 'It's a Cheshire cat,' said the King. 'I can't explain MYSELF, I'm afraid, but you might like to show you! A little bright-eyed terrier, you know, with oh, such long curly brown hair! And it'll fetch things when you come to the seaside once in her hands, and she."}]}
+
+
+           
+2023-10-18 22:58:58,774 - core.logger - INFO - Received data: {'message': 'Is there any last emails in my inbox?', 'user_id': 1}
+2023-10-18 22:58:58,774 - core.logger - INFO - Received data: {'message': 'Is there any last emails in my inbox?', 'user_id': 1}
+2023-10-18 22:58:59,403 - core.logger - INFO - Executing command: getLastEmail
+2023-10-18 22:58:59,403 - core.logger - INFO - Executing command: getLastEmail
+2023-10-18 22:58:59,754 - core.logger - INFO - Generating response for data:  
+         Please provide a concise summary of the most recent emails from the user's inbox.
+
+            Instructions:
+            1. Ensure the confidentiality and privacy of the user's data at all times.
+            2. Summarize each email without compromising the essence of its content.
+            3. Prioritize relevance and brevity in your summaries.
+            4. Limit your response to the information present in the provided data.
+
+            Email Data:
+            {'status': 'OK', 'code': 200, 'total': 1, 'data': [{'title': 'Alice herself, and.', 'author': 'Rachelle Bechtelar', 'genre': 'Est', 'content': "White Rabbit hurried by--the frightened Mouse splashed his way through the wood. 'It's the stupidest tea-party I ever was at the stick, and held it out to the baby, the shriek of the busy farm-yard--while the lowing of the sort. Next came an angry voice--the Rabbit's--'Pat! Pat! Where are you?' And then a great crash, as if she was considering in her life; it was over at last, with a sigh. 'I only took the place of the hall; but, alas! either the locks were too large, or the key was too."}]}
+
+
+           
+2023-10-18 22:58:59,754 - core.logger - INFO - Generating response for data:  
+         Please provide a concise summary of the most recent emails from the user's inbox.
+
+            Instructions:
+            1. Ensure the confidentiality and privacy of the user's data at all times.
+            2. Summarize each email without compromising the essence of its content.
+            3. Prioritize relevance and brevity in your summaries.
+            4. Limit your response to the information present in the provided data.
+
+            Email Data:
+            {'status': 'OK', 'code': 200, 'total': 1, 'data': [{'title': 'Alice herself, and.', 'author': 'Rachelle Bechtelar', 'genre': 'Est', 'content': "White Rabbit hurried by--the frightened Mouse splashed his way through the wood. 'It's the stupidest tea-party I ever was at the stick, and held it out to the baby, the shriek of the busy farm-yard--while the lowing of the sort. Next came an angry voice--the Rabbit's--'Pat! Pat! Where are you?' And then a great crash, as if she was considering in her life; it was over at last, with a sigh. 'I only took the place of the hall; but, alas! either the locks were too large, or the key was too."}]}
+
+
+           
+2023-10-18 22:59:16,688 - core.logger - INFO - Received data: {'message': 'Is there any last emails in my inbox?', 'user_id': 1}
+2023-10-18 22:59:16,688 - core.logger - INFO - Received data: {'message': 'Is there any last emails in my inbox?', 'user_id': 1}
+2023-10-18 22:59:17,858 - core.logger - INFO - Executing command: getLastEmail
+2023-10-18 22:59:17,858 - core.logger - INFO - Executing command: getLastEmail
+2023-10-18 22:59:18,220 - core.logger - INFO - Generating response for data:  
+         Please provide a concise summary of the most recent emails from the user's inbox.
+
+            Instructions:
+            1. Ensure the confidentiality and privacy of the user's data at all times.
+            2. Summarize each email without compromising the essence of its content.
+            3. Prioritize relevance and brevity in your summaries.
+            4. Limit your response to the information present in the provided data.
+
+            Email Data:
+            {'status': 'OK', 'code': 200, 'total': 1, 'data': [{'title': "I'd gone to see if.", 'author': "Elvera O'Reilly", 'genre': 'Et', 'content': "I begin, please your Majesty,' he began, 'for bringing these in: but I can't understand it myself to begin again, it was impossible to say 'creatures,' you see, Miss, this here ought to be seen: she found herself safe in a wondering tone. 'Why, what a wonderful dream it had been. But her sister was reading, but it is.' 'Then you shouldn't talk,' said the Mock Turtle. 'Seals, turtles, salmon, and so on.' 'What a pity it wouldn't stay!' sighed the Lory, as soon as look at a reasonable pace,'."}]}
+
+
+           
+2023-10-18 22:59:18,220 - core.logger - INFO - Generating response for data:  
+         Please provide a concise summary of the most recent emails from the user's inbox.
+
+            Instructions:
+            1. Ensure the confidentiality and privacy of the user's data at all times.
+            2. Summarize each email without compromising the essence of its content.
+            3. Prioritize relevance and brevity in your summaries.
+            4. Limit your response to the information present in the provided data.
+
+            Email Data:
+            {'status': 'OK', 'code': 200, 'total': 1, 'data': [{'title': "I'd gone to see if.", 'author': "Elvera O'Reilly", 'genre': 'Et', 'content': "I begin, please your Majesty,' he began, 'for bringing these in: but I can't understand it myself to begin again, it was impossible to say 'creatures,' you see, Miss, this here ought to be seen: she found herself safe in a wondering tone. 'Why, what a wonderful dream it had been. But her sister was reading, but it is.' 'Then you shouldn't talk,' said the Mock Turtle. 'Seals, turtles, salmon, and so on.' 'What a pity it wouldn't stay!' sighed the Lory, as soon as look at a reasonable pace,'."}]}
+
+
+           
+2023-10-18 23:00:32,198 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 23:00:32,198 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 23:04:20,928 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 23:04:20,928 - core.logger - INFO - Configurations loaded successfully.

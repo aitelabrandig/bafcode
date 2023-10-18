@@ -12,6 +12,5 @@ class GetLastEmail:
             raise ValueError("User ID is required to fetch the last email.")
 
         emails = get_last_email(user_id)
-        print(emails)
         prompt = LastEmailsPrompt.get_last_emails(emails)
         return prompt

@@ -285,3 +285,48 @@ KeyError: 'PORT'
            ~~~~~~~~~~^^^^^^^^
 KeyError: 'PORT'
 
+2023-10-18 19:06:05,391 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 19:06:05,391 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 19:06:05,393 - core.logger - ERROR - Error starting the app: 'PORT'
+2023-10-18 19:06:05,393 - core.logger - ERROR - Error starting the app: 'PORT'
+2023-10-18 19:06:05,394 - core.error_handler - ERROR - Traceback (most recent call last):
+  File "C:\Users\Imad\Desktop\Github\BafCloud\BafCodeFramework\src\app.py", line 59, in <module>
+    port = app.config["PORT"]
+           ~~~~~~~~~~^^^^^^^^
+KeyError: 'PORT'
+
+2023-10-18 19:12:12,959 - core.error_handler - ERROR - Traceback (most recent call last):
+  File "C:\Users\Imad\Desktop\Github\BafCloud\BafCodeFramework\src\app.py", line 5, in <module>
+    from .config import Config
+ImportError: attempted relative import with no known parent package
+
+2023-10-18 19:17:17,513 - core.error_handler - ERROR - Traceback (most recent call last):
+  File "C:\Users\Imad\Desktop\Github\BafCloud\BafCodeFramework\src\app.py", line 5, in <module>
+    from config import Config
+ImportError: cannot import name 'Config' from 'config' (unknown location)
+
+2023-10-18 19:17:40,861 - core.error_handler - ERROR - Traceback (most recent call last):
+  File "<frozen runpy>", line 189, in _run_module_as_main
+  File "<frozen runpy>", line 112, in _get_module_details
+  File "C:\Users\Imad\Desktop\Github\BafCloud\BafCodeFramework\src\app.py", line 5, in <module>
+    from config import Config
+ImportError: cannot import name 'Config' from 'config' (unknown location)
+
+2023-10-18 19:18:36,189 - core.error_handler - ERROR - Traceback (most recent call last):
+  File "<frozen runpy>", line 189, in _run_module_as_main
+  File "<frozen runpy>", line 112, in _get_module_details
+  File "C:\Users\Imad\Desktop\Github\BafCloud\BafCodeFramework\src\app.py", line 5, in <module>
+    from config import UnifiedConfig
+ImportError: cannot import name 'UnifiedConfig' from 'config' (unknown location)
+
+2023-10-18 19:20:37,093 - core.error_handler - ERROR - Traceback (most recent call last):
+  File "C:\Users\Imad\Desktop\Github\BafCloud\BafCodeFramework\src\app.py", line 5, in <module>
+    from .config import Config
+ImportError: attempted relative import with no known parent package
+
+2023-10-18 19:20:48,380 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 19:20:48,380 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 19:20:49,107 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 19:20:49,107 - core.logger - INFO - Configurations loaded successfully.
+2023-10-18 19:20:56,201 - core.logger - INFO - App started on port 5000.
+2023-10-18 19:20:56,201 - core.logger - INFO - App started on port 5000.

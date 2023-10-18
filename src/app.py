@@ -2,7 +2,8 @@ from flask import Flask, request, jsonify
 from core import framework_logger
 from agent.master import MasterAgent
 from responder.llm_response import Responder
-import config
+from config import Config
+
 
 
 # Initialize Flask app
@@ -11,8 +12,7 @@ app = Flask(__name__)
 # Load configurations
 try:
 
-    app.config.from_object(config)
-    print(app.config)
+    app.config.from_object(Config)
 
     framework_logger.info("Configurations loaded successfully.")
 except Exception as e:

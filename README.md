@@ -29,6 +29,7 @@ At its essence, BafCode operates through two primary components: the **Agent** a
 3. **Manual Setup**: Alternatively, you can navigate to the `src` directory and execute `python app.py` to start the framework manually.
     ```cmd
         cd src
+        pip install -r requirements.txt
         python app.py
     
     ```

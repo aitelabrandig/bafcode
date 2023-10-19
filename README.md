@@ -34,29 +34,78 @@ At its essence, BafCode operates through two primary components: the **Agent** a
     ```
 4. **Command Creation**: Begin by crafting a command. Create a file within the `agent/commands` directory. For better organization, especially when dealing with larger agents, consider grouping related commands within subdirectories.
 
-### Creating a File in `agent/commands`:
+##### Creating a File in `agent/commands`:
 
-#### Windows (Command Prompt):
+###### Windows (Command Prompt):
 
 ```cmd
 // Ensure you're in src directory
 echo. > agent\commands\your_command_filename.py
 ```
-#### Windows (PowerShell):
+###### Windows (PowerShell):
 ```cmd
 // Ensure you're in src directory
 New-Item -Path '.\agent\commands\' -Name 'your_command_filename.py' -ItemType 'file'
 
 ```
-#### macOS and Ubuntu (Terminal):
+###### macOS and Ubuntu (Terminal):
 
 ```cmd
 // Ensure you're in src directory
 touch agent/commands/your_command_filename.py
 
 ```
+##### Creating a File in `prompts`:
 
-#### Command file example:
+###### Windows (Command Prompt):
+
+```cmd
+// Ensure you're in src directory
+echo. > prompts\your_prompt_filename.py
+```
+###### Windows (PowerShell):
+```cmd
+// Ensure you're in src directory
+New-Item -Path '.\prompts\' -Name 'your_prompt_filename.py' -ItemType 'file'
+
+```
+###### macOS and Ubuntu (Terminal):
+
+```cmd
+// Ensure you're in src directory
+touch prompts/your_prompt_filename.py
+
+```
+###### Prompt file example:
+```python
+
+
+class LastEmailsPrompt:
+    def get_last_emails(data):
+      prompt = """ 
+         Please provide a concise summary of the most recent emails from the user's inbox.
+
+            Instructions:
+            1. Ensure the confidentiality and privacy of the user's data at all times.
+            2. Summarize each email without compromising the essence of its content.
+            3. Prioritize relevance and brevity in your summaries.
+            4. Limit your response to the information present in the provided data.
+
+            Email Data:
+            {data}
+
+
+           """
+      
+      return prompt.format(data=data)
+
+    
+```
+###### Import Prompt class in `prompts/__init__.py`:
+```python
+from .email.last_emails_prompt import LastEmailsPrompt
+```
+###### Command file example:
 ```python
 from core import framework_logger
 from prompts import LastEmailsPrompt
@@ -83,21 +132,21 @@ class GetLastEmail:
 
 6. **API Integration**: If your command needs to pull data using an API (which is often the case), create an API file within the `api` directory. For clarity, you can structure multiple endpoints of the same API within its subfolder.
 
-### Creating a File in `api`:
+##### Creating a File in `api`:
 
-#### Windows (Command Prompt):
+##### Windows (Command Prompt):
 
 ```cmd
 // Ensure you're in src directory
 echo. > api\email_api\your_api_filename.py
 ```
-#### Windows (PowerShell):
+##### Windows (PowerShell):
 ```cmd
 // Ensure you're in src directory
 New-Item -Path '.\api\email_api' -Name 'your_api_filename.py' -ItemType 'file'
 
 ```
-#### macOS and Ubuntu (Terminal):
+##### macOS and Ubuntu (Terminal):
 
 ```cmd
 // Ensure you're in src directory
@@ -105,7 +154,7 @@ touch api/email_api/your_api_filename.py
 
 ```
 
-#### API file example:
+##### API file example:
 ```python
 import requests
 from core import framework_logger
@@ -136,11 +185,11 @@ def get_last_email(user_id):
 
 
 7. **API Usage**: Once your API is set up, import and utilize it within your command file and return the required data.
-#### Import the api function in api/__init__.py 
+##### Import the api function in api/__init__.py 
 ```python
 from .email_api.get_last_email_api import get_last_email
 ```
-#### Example of Importing an API function in your command file:
+##### Example of Importing an API function in your command file:
 ```python
 from api import get_last_email
 from core import framework_logger
@@ -161,20 +210,20 @@ class GetLastEmail:
 ```
 8. **LLM Setup**: Adjust the LLM as per your requirements. While default configurations for OpenAI GPT-3.5 and GPT-4 are provided, you can introduce new LLMs by creating a dedicated file inside the `llms` folder. Adjust the imports and class usage in both `agent/llm_decision/decision.py` and `responder/llm_response`.
 
-#### Create new LLM Class
-#### Windows (Command Prompt):
+##### Create new LLM Class
+##### Windows (Command Prompt):
 
 ```cmd
 // Ensure you're in src directory
 echo. > llms\your_llm_filename.py
 ```
-#### Windows (PowerShell):
+##### Windows (PowerShell):
 ```cmd
 // Ensure you're in src directory
 New-Item -Path '.\llms' -Name 'your_llm_filename.py' -ItemType 'file'
 
 ```
-#### macOS and Ubuntu (Terminal):
+##### macOS and Ubuntu (Terminal):
 
 ```cmd
 // Ensure you're in src directory
@@ -182,7 +231,7 @@ touch llms/your_llm_filename.py
 
 ```
 
-#### File Example
+##### File Example
 ```python
 from core import framework_logger
 from config import Config
@@ -221,7 +270,7 @@ class LLMClass:
     python app, py
     
     ```
-#### Request Body:
+##### Request Body:
     ```json
     {
         "message": "Your desired message here"

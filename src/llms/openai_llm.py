@@ -1,10 +1,10 @@
 import openai
-from core import framework_logger
+from core import BafLog
 from config import Config
 
 class OpenAILLM:
     def __init__(self):
-        self.logger = framework_logger
+        self.logger = BafLog
 
         # Initialize OpenAI API key (should be kept secret and ideally loaded from a secure environment)
         openai.api_key = Config.OPENAI_API_KEY

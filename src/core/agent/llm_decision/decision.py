@@ -1,5 +1,5 @@
 from llms.openai_llm import OpenAILLM
-from ..commands import command_mapping
+from tools import command_mapping
 from prompts import MasterPrompts
 
 

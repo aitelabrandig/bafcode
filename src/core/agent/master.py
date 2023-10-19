@@ -1,10 +1,10 @@
-from core import framework_logger
-from agent.commands.processor import CommandProcessor 
+from core import BafLog
+from tools.processor import CommandProcessor 
 from .llm_decision.decision import decide_command
 
 class MasterAgent:
     def __init__(self):
-        self.logger = framework_logger
+        self.logger = BafLog
         
 
     def process(self, data):

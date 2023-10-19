@@ -1,10 +1,10 @@
-from core import framework_logger
+from core import BafLog
 from llms.openai_llm import OpenAILLM
 from prompts import ResponderPrompt
 
 class Responder:
     def __init__(self):
-        self.logger = framework_logger
+        self.logger = BafLog
 
     def generate(self,data,message):
 

@@ -1,11 +1,11 @@
 import requests
-from core import framework_logger
+from core import BafLog
 
 EMAIL_API_ENDPOINT = "https://fakerapi.it/api/v1/texts?_quantity=1&_characters=500"  # Placeholder email API endpoint
 
 def get_last_email(user_id):
 
-    logger = framework_logger
+    logger = BafLog
 
     if not user_id:
         logger.error("User ID not provided for fetching last email.")

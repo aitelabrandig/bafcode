@@ -108,11 +108,11 @@ from .email.last_emails_prompt import LastEmailsPrompt
 ```
 ###### Command file example:
 ```python
-from core import framework_logger
+from core import BafLog
 from prompts import LastEmailsPrompt
 class GetLastEmail:
     def __init__(self):
-        self.logger = framework_logger
+        self.logger = BafLog
 
     def execute(self, data):
        
@@ -158,13 +158,13 @@ touch api/email_api/your_api_filename.py
 ##### API file example:
 ```python
 import requests
-from core import framework_logger
+from core import BafLog
 
 EMAIL_API_ENDPOINT = "https://fakerapi.it/api/v1/texts?_quantity=1&_characters=500"  # Placeholder email API endpoint
 
 def get_last_email(user_id):
 
-    logger = framework_logger
+    logger = BafLog
 
     if not user_id:
         logger.error("User ID not provided for fetching last email.")
@@ -193,11 +193,11 @@ from .email_api.get_last_email_api import get_last_email
 ##### Example of Importing an API function in your command file:
 ```python
 from api import get_last_email
-from core import framework_logger
+from core import BafLog
 from prompts import LastEmailsPrompt
 class GetLastEmail:
     def __init__(self):
-        self.logger = framework_logger
+        self.logger = BafLog
 
     def execute(self, data):
         user_id = data['user_id']
@@ -234,12 +234,12 @@ touch llms/your_llm_filename.py
 
 ##### File Example
 ```python
-from core import framework_logger
+from core import BafLog
 from config import Config
 
 class LLMClass:
     def __init__(self):
-        self.logger = framework_logger
+        self.logger = BafLog
 
         # Initialize LLM Configuration (should be kept secret and ideally loaded from a secure environment)
 

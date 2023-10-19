@@ -1,9 +1,9 @@
-from core import framework_logger
-from ..commands import *
+from core import BafLog
+from tools import *
 
 class CommandProcessor:
     def __init__(self):
-        self.logger = framework_logger
+        self.logger = BafLog
 
     def execute(self, command_name, data):
         # Log the command execution

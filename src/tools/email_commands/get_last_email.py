@@ -1,9 +1,9 @@
 from api import get_last_email
-from core import framework_logger
+from core import BafLog
 from prompts import LastEmailsPrompt
 class GetLastEmail:
     def __init__(self):
-        self.logger = framework_logger
+        self.logger = BafLog
 
     def execute(self, data):
         user_id = data['user_id']

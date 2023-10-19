@@ -1,0 +1,40 @@
+2023-10-19 17:14:56,115 - core.logger - INFO - Configurations loaded successfully.
+2023-10-19 17:14:56,115 - core.logger - INFO - Configurations loaded successfully.
+2023-10-19 17:14:56,951 - core.logger - INFO - Configurations loaded successfully.
+2023-10-19 17:14:56,951 - core.logger - INFO - Configurations loaded successfully.
+2023-10-19 17:15:01,246 - core.logger - INFO - Received data: {'message': 'Give me last emails in my inbox', 'user_id': 1}
+2023-10-19 17:15:01,246 - core.logger - INFO - Received data: {'message': 'Give me last emails in my inbox', 'user_id': 1}
+2023-10-19 17:15:03,224 - core.logger - INFO - Executing command: getLastEmail
+2023-10-19 17:15:03,224 - core.logger - INFO - Executing command: getLastEmail
+2023-10-19 17:15:09,341 - core.logger - INFO - Generating response for data:  
+         Please provide a concise summary of the most recent emails from the user's inbox.
+
+            Instructions:
+            1. Ensure the confidentiality and privacy of the user's data at all times.
+            2. Summarize each email without compromising the essence of its content.
+            3. Prioritize relevance and brevity in your summaries.
+            4. Limit your response to the information present in the provided data.
+
+            Email Data:
+            {'status': 'OK', 'code': 200, 'total': 1, 'data': [{'title': 'Alice went on.', 'author': 'Maida Heathcote', 'genre': 'Assumenda', 'content': "Alice noticed, had powdered hair that curled all over with fright. 'Oh, I BEG your pardon!' said the Hatter. He came in with a cart-horse, and expecting every moment to be two people! Why, there's hardly enough of me left to make ONE respectable person!' Soon her eye fell upon a time there could be beheaded, and that he shook his grey locks, 'I kept all my limbs very supple By the use of repeating all that green stuff be?' said Alice. 'Then it doesn't understand English,' thought Alice; 'I."}]}
+
+
+           
+2023-10-19 17:15:09,341 - core.logger - INFO - Generating response for data:  
+         Please provide a concise summary of the most recent emails from the user's inbox.
+
+            Instructions:
+            1. Ensure the confidentiality and privacy of the user's data at all times.
+            2. Summarize each email without compromising the essence of its content.
+            3. Prioritize relevance and brevity in your summaries.
+            4. Limit your response to the information present in the provided data.
+
+            Email Data:
+            {'status': 'OK', 'code': 200, 'total': 1, 'data': [{'title': 'Alice went on.', 'author': 'Maida Heathcote', 'genre': 'Assumenda', 'content': "Alice noticed, had powdered hair that curled all over with fright. 'Oh, I BEG your pardon!' said the Hatter. He came in with a cart-horse, and expecting every moment to be two people! Why, there's hardly enough of me left to make ONE respectable person!' Soon her eye fell upon a time there could be beheaded, and that he shook his grey locks, 'I kept all my limbs very supple By the use of repeating all that green stuff be?' said Alice. 'Then it doesn't understand English,' thought Alice; 'I."}]}
+
+
+           
+2023-10-19 18:27:32,489 - core.logger - INFO - App started on port 5000.
+2023-10-19 18:27:32,489 - core.logger - INFO - App started on port 5000.
+2023-10-19 18:27:32,626 - core.logger - INFO - App started on port 5000.
+2023-10-19 18:27:32,626 - core.logger - INFO - App started on port 5000.

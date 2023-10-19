@@ -6,20 +6,11 @@ LOG_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'logs')
 if not os.path.exists(LOG_DIR):
     os.makedirs(LOG_DIR)
 
-LOG_FILENAME = os.path.join(LOG_DIR, 'framework.log')
+LOG_FILENAME = os.path.join(LOG_DIR, 'baf.log')
 
 
 def setup_logger(name=__name__, log_level=logging.INFO):
-    """
-    Set up a logger with a specified name and log level.
 
-    Args:
-    - name (str): Name of the logger.
-    - log_level (int): Logging level, e.g., logging.DEBUG, logging.INFO.
-
-    Returns:
-    - logger: Configured logger instance.
-    """
     logger = logging.getLogger(name)
     logger.setLevel(log_level)
 
@@ -44,9 +35,9 @@ def setup_logger(name=__name__, log_level=logging.INFO):
 
 
 # Use the logger
-framework_logger = setup_logger()
+BafLog = setup_logger()
 
 # # Example usage:
 # if __name__ == "__main__":
-#     framework_logger.info("This is an info message.")
-#     framework_logger.error("This is an error message.")
+#     BafLog.info("This is an info message.")
+#     BafLog.error("This is an error message.")

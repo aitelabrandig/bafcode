@@ -4,15 +4,7 @@ from core import framework_logger
 EMAIL_API_ENDPOINT = "https://fakerapi.it/api/v1/texts?_quantity=1&_characters=500"  # Placeholder email API endpoint
 
 def get_last_email(user_id):
-    """
-    Fetch the last email for the provided user using the email API.
 
-    Args:
-    - user_id (str): User's unique identifier.
-
-    Returns:
-    - dict: Response data containing the last email details.
-    """
     logger = framework_logger
 
     if not user_id:

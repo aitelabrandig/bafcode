@@ -831,3 +831,87 @@ ImportError: cannot import name 'LastEmailsPrompt' from 'prompts.email.last_emai
 2023-10-18 23:00:32,198 - core.logger - INFO - Configurations loaded successfully.
 2023-10-18 23:04:20,928 - core.logger - INFO - Configurations loaded successfully.
 2023-10-18 23:04:20,928 - core.logger - INFO - Configurations loaded successfully.
+2023-10-19 11:06:30,015 - core.logger - INFO - Configurations loaded successfully.
+2023-10-19 11:06:30,015 - core.logger - INFO - Configurations loaded successfully.
+2023-10-19 11:06:31,138 - core.logger - INFO - Configurations loaded successfully.
+2023-10-19 11:06:31,138 - core.logger - INFO - Configurations loaded successfully.
+2023-10-19 11:06:48,979 - core.logger - INFO - Received data: {'message': 'Give me last emails in my inbox', 'user_id': 1}
+2023-10-19 11:06:48,979 - core.logger - INFO - Received data: {'message': 'Give me last emails in my inbox', 'user_id': 1}
+2023-10-19 11:06:50,034 - core.logger - INFO - Executing command: getLastEmail
+2023-10-19 11:06:50,034 - core.logger - INFO - Executing command: getLastEmail
+2023-10-19 11:07:01,825 - core.logger - INFO - Generating response for data:  
+         Please provide a concise summary of the most recent emails from the user's inbox.
+
+            Instructions:
+            1. Ensure the confidentiality and privacy of the user's data at all times.
+            2. Summarize each email without compromising the essence of its content.
+            3. Prioritize relevance and brevity in your summaries.
+            4. Limit your response to the information present in the provided data.
+
+            Email Data:
+            {'status': 'OK', 'code': 200, 'total': 1, 'data': [{'title': 'Shakespeare, in.', 'author': 'Dovie Shields', 'genre': 'Id', 'content': "Caterpillar seemed to her feet, they seemed to Alice an excellent opportunity for croqueting one of the deepest contempt. 'I've seen a good deal on where you want to get us dry would be like, but it just grazed his nose, and broke to pieces against one of them.' In another moment it was very like a writing-desk?' 'Come, we shall have to beat them off, and found that, as nearly as large as himself, and this time with great curiosity. 'It's a Cheshire cat,' said the Mock Turtle, capering wildly."}]}
+
+
+           
+2023-10-19 11:07:01,825 - core.logger - INFO - Generating response for data:  
+         Please provide a concise summary of the most recent emails from the user's inbox.
+
+            Instructions:
+            1. Ensure the confidentiality and privacy of the user's data at all times.
+            2. Summarize each email without compromising the essence of its content.
+            3. Prioritize relevance and brevity in your summaries.
+            4. Limit your response to the information present in the provided data.
+
+            Email Data:
+            {'status': 'OK', 'code': 200, 'total': 1, 'data': [{'title': 'Shakespeare, in.', 'author': 'Dovie Shields', 'genre': 'Id', 'content': "Caterpillar seemed to her feet, they seemed to Alice an excellent opportunity for croqueting one of the deepest contempt. 'I've seen a good deal on where you want to get us dry would be like, but it just grazed his nose, and broke to pieces against one of them.' In another moment it was very like a writing-desk?' 'Come, we shall have to beat them off, and found that, as nearly as large as himself, and this time with great curiosity. 'It's a Cheshire cat,' said the Mock Turtle, capering wildly."}]}
+
+
+           
+2023-10-19 11:07:02,061 - core.logger - ERROR - Error processing with OpenAI LLM: Incorrect API key provided: sk-IMdNH***************************************kKEx. You can find your API key at https://platform.openai.com/account/api-keys.
+2023-10-19 11:07:02,061 - core.logger - ERROR - Error processing with OpenAI LLM: Incorrect API key provided: sk-IMdNH***************************************kKEx. You can find your API key at https://platform.openai.com/account/api-keys.
+2023-10-19 11:12:47,138 - core.logger - INFO - App started on port 5000.
+2023-10-19 11:12:47,138 - core.logger - INFO - App started on port 5000.
+2023-10-19 11:12:47,277 - core.logger - INFO - App started on port 5000.
+2023-10-19 11:12:47,277 - core.logger - INFO - App started on port 5000.
+2023-10-19 11:14:54,571 - core.logger - INFO - Configurations loaded successfully.
+2023-10-19 11:14:54,571 - core.logger - INFO - Configurations loaded successfully.
+2023-10-19 11:14:55,444 - core.logger - INFO - Configurations loaded successfully.
+2023-10-19 11:14:55,444 - core.logger - INFO - Configurations loaded successfully.
+2023-10-19 11:15:01,256 - core.logger - INFO - Received data: {'message': 'Give me last emails in my inbox', 'user_id': 1}
+2023-10-19 11:15:01,256 - core.logger - INFO - Received data: {'message': 'Give me last emails in my inbox', 'user_id': 1}
+2023-10-19 11:15:14,089 - core.logger - INFO - Executing command: getLastEmail
+2023-10-19 11:15:14,089 - core.logger - INFO - Executing command: getLastEmail
+2023-10-19 11:15:14,910 - core.logger - INFO - Generating response for data:  
+         Please provide a concise summary of the most recent emails from the user's inbox.
+
+            Instructions:
+            1. Ensure the confidentiality and privacy of the user's data at all times.
+            2. Summarize each email without compromising the essence of its content.
+            3. Prioritize relevance and brevity in your summaries.
+            4. Limit your response to the information present in the provided data.
+
+            Email Data:
+            {'status': 'OK', 'code': 200, 'total': 1, 'data': [{'title': 'Queen shrieked.', 'author': 'Garfield Breitenberg', 'genre': 'Voluptatem', 'content': 'I can\'t be civil, you\'d better ask HER about it.\' \'She\'s in prison,\' the Queen till she had finished, her sister kissed her, and said, \'It was the King; and as Alice could see it trot away quietly into the jury-box, or they would go, and making faces at him as he spoke, and added with a growl, And concluded the banquet--] \'What IS the fun?\' said Alice. \'Who\'s making personal remarks now?\' the Hatter was the first figure,\' said the Caterpillar; and it put more simply--"Never imagine yourself.'}]}
+
+
+           
+2023-10-19 11:15:14,910 - core.logger - INFO - Generating response for data:  
+         Please provide a concise summary of the most recent emails from the user's inbox.
+
+            Instructions:
+            1. Ensure the confidentiality and privacy of the user's data at all times.
+            2. Summarize each email without compromising the essence of its content.
+            3. Prioritize relevance and brevity in your summaries.
+            4. Limit your response to the information present in the provided data.
+
+            Email Data:
+            {'status': 'OK', 'code': 200, 'total': 1, 'data': [{'title': 'Queen shrieked.', 'author': 'Garfield Breitenberg', 'genre': 'Voluptatem', 'content': 'I can\'t be civil, you\'d better ask HER about it.\' \'She\'s in prison,\' the Queen till she had finished, her sister kissed her, and said, \'It was the King; and as Alice could see it trot away quietly into the jury-box, or they would go, and making faces at him as he spoke, and added with a growl, And concluded the banquet--] \'What IS the fun?\' said Alice. \'Who\'s making personal remarks now?\' the Hatter was the first figure,\' said the Caterpillar; and it put more simply--"Never imagine yourself.'}]}
+
+
+           
+2023-10-19 12:05:30,742 - core.logger - INFO - Configurations loaded successfully.
+2023-10-19 12:05:30,742 - core.logger - INFO - Configurations loaded successfully.
+2023-10-19 12:41:37,851 - core.logger - INFO - App started on port 5000.
+2023-10-19 12:41:37,851 - core.logger - INFO - App started on port 5000.
+2023-10-19 12:41:37,977 - core.logger - INFO - App started on port 5000.
+2023-10-19 12:41:37,977 - core.logger - INFO - App started on port 5000.

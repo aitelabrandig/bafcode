@@ -171,7 +171,7 @@ class ExampleLLM:
 ```
 Once more, BafCode CLI provides you with a foundational code for your LLM. All you need to do is integrate your LLM API or define the logic of how the LLM receives and responds to messages. Just make sure to refine the LLM's response, ensuring you return a final string response rather than an array or object.
 
-##### LLM Configuration:
+### LLM Configuration:
 Apologies for the oversight. As of now, LLMs are not set up automatically. Here's the single step you need to follow:
 
 Navigate to the `config` folder at the project root. Within it, you'll find `llms_config.py`. In this file, replace the `DEFAULT_LLM` value with your preferred LLM by specifying the LLM Class name.

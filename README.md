@@ -11,6 +11,8 @@ BafCode primarily consists of two major components: the Agent 🤖 and the Respo
 Agent: This component contains specific features, referred to as tools, along with LLM decision-making abilities. When a request with a particular message is received, the agent uses its LLM decision-making mechanism to determine the suitable tool to be applied.
 
 For example, if a request's content asks, "What are my newest emails in the inbox?", the agent employs its LLM decision methodology to select the most relevant tool. Suppose there's a tool titled `getLastEmails`. This tool might connect with an API to fetch the latest ten emails. The obtained emails, combined with a developer-defined prompt, are subsequently passed to the Responder.
+
+
 Responder: The Responder takes the provided emails and the prompt, then formulates a precise response to be sent back to the user.
 
 ## Constructing an AI Agent with BafCode: 🔧

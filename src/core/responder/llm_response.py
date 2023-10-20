@@ -1,5 +1,5 @@
 from core import BafLog
-from llms.openai_llm import OpenAILLM
+from llms import LLM
 from prompts import ResponderPrompt
 
 class Responder:
@@ -11,7 +11,7 @@ class Responder:
         try:
             # Log the received data (might be useful for debugging, but ensure no sensitive data is logged)
             self.logger.info(f"Generating response for data: {data}")
-            response = OpenAILLM().process(message,data)
+            response = LLM.llm.process(message,data)
             return response
 
         except Exception as e:

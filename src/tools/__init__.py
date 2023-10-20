@@ -1,8 +1,9 @@
-from .email_commands.get_last_email import GetLastEmail
+
+from .examples.get_example import ExamplesGetExample
 
 
 
 # Define your commands  here
-command_mapping = {
-            "getLastEmail": GetLastEmail,
+command_mapping = {        
+    "examplesGetExample": ExamplesGetExample,
         }

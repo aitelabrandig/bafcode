@@ -1,4 +1,4 @@
-from llms.openai_llm import OpenAILLM
+from llms import LLM
 from tools import command_mapping
 from prompts import MasterPrompts
 
@@ -11,7 +11,7 @@ def decide_command(message):
     commands = list(command_mapping.keys())
     prompt = MasterPrompts.decide_command_prompt(commands)
     print('Message: ',message)
-    llm_response = OpenAILLM().process(message,prompt)
+    llm_response = LLM.llm.process(message,prompt)
     command = llm_response
     print('Command: ',command)
     return command

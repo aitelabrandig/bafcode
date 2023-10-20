@@ -1,1 +1,1 @@
-from .email_api.get_last_email_api import get_last_email
+from .examples.get_example import ExamplesGetExampleAPI

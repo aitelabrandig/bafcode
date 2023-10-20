@@ -10,6 +10,9 @@ class LLMsConfig:
     # Timeout for LLM requests (if applicable)
     LLM_TIMEOUT = 15  # in seconds
 
+    # Default LLM to use if no LLM is specified in the request
+    DEFAULT_LLM = "OpenAILLM"
+
     # OpenAI LLM configurations
     OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")  # Should ideally be loaded from a secure environment variable or vault
     OPENAI_ENGINE = "gpt-3.5-turbo"  # Default engine for OpenAI requests

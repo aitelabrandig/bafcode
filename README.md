@@ -71,7 +71,7 @@ class ExamplesGetExample:
         
 ```
 
-At times, you don't need to modify your Tool Logic code, as the baf make command automatically imports everything required, like the prompt and the API function. Simply set up your prompt and API, and everything will run seamlessly.
+At times, you don't need to modify your Tool Logic code, as the bafcode make command automatically imports everything required, like the prompt and the API function. Simply set up your prompt and API, and everything will run seamlessly.
 
 **API Example:**
 Your tool-specific API can be located in the api folder. Here's an example of how it might appear:

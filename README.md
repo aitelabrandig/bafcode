@@ -1,52 +1,51 @@
 # BafCode Framework
 
-## Introduction:
+## Introduction 🌐:
 
-BafCode? It's a sleek Flask framework for whipping up AI agents fast. Got directories ready for your LLMs, prompts, tools, and all that jazz. BafCode's mantra? Code, chill, and let the AI magic happen.
+BafCode is an efficient Flask framework tailored for the rapid creation of AI agents. It provides a structured directory setup, catering to configurations for Large Language Models (LLMs), prompts, LLM tools, and additional features. The primary aim of BafCode is to offer a platform for developers, enabling them to quickly initiate the construction of AI solutions.
 
-## How It Works:
+## How It Works ⚙️:
 
-At its essence, BafCode operates through two primary components: the **Agent** and the **Responder**.
+BafCode primarily consists of two major components: the Agent 🤖 and the Responder 📩.
 
-1. **Agent**: The agent is equipped with functionalities we refer to as tools and LLM decision-making capabilities. Upon receiving a request containing a message, the agent leverages the LLM decision-making process to ascertain the appropriate tool to use.
-    - For instance, if a request message says, "What are my latest emails in the inbox?", the agent uses the LLM decision process to discern the best-fitting tool to run. Assume there exists a tool named `getLastEmails`. This tool, when used, might integrate with an API to retrieve the ten most recent emails. The retrieved emails, paired with a specific prompt crafted by the developer, are then passed on to the Responder.
+Agent: This component contains specific features, referred to as tools, along with LLM decision-making abilities. When a request with a particular message is received, the agent uses its LLM decision-making mechanism to determine the suitable tool to be applied.
 
-2. **Responder**: The Responder processes the emails and the prompt, subsequently generating a refined response to return to the end-user.
+For example, if a request's content asks, "What are my newest emails in the inbox?", the agent employs its LLM decision methodology to select the most relevant tool. Suppose there's a tool titled `getLastEmails`. This tool might connect with an API to fetch the latest ten emails. The obtained emails, combined with a developer-defined prompt, are subsequently passed to the Responder.
+Responder: The Responder takes the provided emails and the prompt, then formulates a precise response to be sent back to the user.
 
-## Building an Agent Using BafCode:
- **Simplicity**:Set up, then code your agent tools. BafCode handles the rest. Focus on functionality. 💻🛠️
-1. **Setup**: Setup the project using BafCode CLI
+## Constructing an AI Agent with BafCode: 🔧
+
+ **Simplicity is Key**: First, perform the initial setup, followed by coding your desired agent tools. BafCode manages the subsequent processes, letting you concentrate on tool functionality.
+1. **Initial Setup: 🚀**:  Use the BafCode Command Line Interface (CLI) to set up your project.
     ```cmd
     pip install bafcode
     bafcode setup
     ```
 
-2. **Docker Setup (Optional)**: Utilize Docker and docker-compose if you prefer this approach to kickstart the framework.
+2. **Docker Configuration (Optional): 🐳**:If you're inclined to use Docker, leverage Docker and docker-compose to get the framework up and running.
     ```cmd
-   docker-compose up -d
-    
+   docker-compose up -d 
     ```
-3. **Manual Setup**: Alternatively, you can navigate to the `src` directory and use `bafcode start` to start the framework manually.
+
+3. **Manual Initialization: 📂**: If you prefer, you can directly head to the `src` directory and activate the framework using `bafcode start`.
     ```cmd
         cd src
         bafcode start or python app.py
     
     ```
 
-4. **Tool Creation**: Begin by crafting a tool. Create a file within the `tools` directory. For better organization, especially when dealing with larger agents, consider grouping related tools within subdirectories.
+### Get Started
+
+4. **Develop Your Tool**: Start by designing your desired tool. Initiate a file inside the tools directory. For enhanced structuring, especially for more extensive agents, it's recommended to categorize similar tools into subfolders.
 
 ##### Creating a File in `tools`:
 ```cmd
   bafcode make tool <your_tool_name>
 ```
 
-
-
 9. **Agent Activation**: With everything set, execute the agent by running `python app.py` within the `src` directory. For testing, use Postman (or a similar tool) to dispatch a POST request to the `/generate` endpoint, including a JSON payload with your message:
     ```cmd
-    // Ensure you're in src directory
     python app.py or bafcode start
-    
     ```
 ##### Request Body:
     ```json

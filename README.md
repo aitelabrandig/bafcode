@@ -47,7 +47,8 @@ For example, if the tool fetched weather data indicating rain and the prompt was
 
 In essence, tools are the bridge that enables the Agent to interact with the external world, gather information, and set the stage for the Responder to deliver valuable outputs to the end-users.
 
-![Client](https://github.com/aitelabrandig/bafcode/assets/95383805/9bc23133-be2a-4c93-b9b9-969d71e53ea1)
+![Client](https://github.com/aitelabrandig/bafcode/assets/95383805/c7264b9c-8c86-47ab-94d6-4b9067b70b09)
+
 
 
 ## How to Build an AI Agent using BafCode 🔧

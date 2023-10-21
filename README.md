@@ -19,8 +19,6 @@ With BafCode, you can solely concentrate on agent tool development. The framewor
 ## Requirements 📋
 Python Environment
 
-Flask (for the web framework, install it using `pip install Flask`)
-
 Optional: Docker for containerization
 
 Command-Line Interface (for BafCode CLI commands, install it using `pip install bafcode`)

@@ -3,5 +3,5 @@ import os
 
 load_dotenv()
 
-class CommandsConfig:
+class ToolsConfig:
     CMDS=True

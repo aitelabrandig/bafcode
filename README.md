@@ -17,7 +17,13 @@ BafCode is a powerful Flask framework designed for the swift development of AI a
 With BafCode, you can solely concentrate on agent tool development. The framework takes care of generating and importing essential components like prompt and API for you, leading to a more efficient development process.
 
 ## Requirements 📋
-(Note: The requirements section is left empty as per the provided content, but you might want to list prerequisites or dependencies here.)
+Python Environment
+
+Flask (for the web framework, install it using `pip install Flask`)
+
+Optional: Docker for containerization
+
+Command-Line Interface (for BafCode CLI commands, install it using `pip install bafcode`)
 
 ## Core Components ⚙️
 Agent: Contains specialized tools and LLM decision-making abilities. It determines the appropriate tool for a received message.

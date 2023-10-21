@@ -47,7 +47,8 @@ For example, if the tool fetched weather data indicating rain and the prompt was
 
 In essence, tools are the bridge that enables the Agent to interact with the external world, gather information, and set the stage for the Responder to deliver valuable outputs to the end-users.
 
-![image](https://github.com/aitelabrandig/bafcode/assets/95383805/08b260d2-0ea2-43a9-a39f-99cf1dcceda6)
+<img width="1340" alt="image" src="https://github.com/aitelabrandig/bafcode/assets/95383805/e0ca8624-2662-46b8-b16c-f74056a64157">
+
 
 
 

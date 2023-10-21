@@ -81,10 +81,10 @@ Begin by crafting your desired tool. Initialize a file within the tools director
 
 ```cmd
 bafcode make tool <your_tool_name>
-Once your tool is created, related APIs and prompts are auto-generated and imported.
 ```
+Once your tool is created, related APIs and prompts are auto-generated and imported.
 
-**Setup LLM 🧠: ** Set up the brain behind your agent and responder with ease using BafCode CLI.
+**Setup LLM 🧠:** Set up the brain behind your agent and responder with ease using BafCode CLI.
 
 By default, the agent and the responder components are using `openai_llm`, you just need to add your OPENAI KEYS in `.env`
 

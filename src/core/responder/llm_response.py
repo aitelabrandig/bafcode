@@ -11,7 +11,10 @@ class Responder:
         try:
             # Log the received data (might be useful for debugging, but ensure no sensitive data is logged)
             self.logger.info(f"Generating response for data: {data}")
-            response = LLM.llm.process(message,data)
+            # stringify the data
+            data = str(data)
+            prompt = ResponderPrompt.generate_final_response(data)
+            response = LLM.llm.process(message,prompt)
             return response
 
         except Exception as e:

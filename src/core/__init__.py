@@ -7,6 +7,7 @@ from .security import encrypt_data, decrypt_data, hash_data
 from .testing_utils import run_tests, mock_api_response
 from .agent.master import MasterAgent
 from .responder.llm_response import Responder
+from .manager.main import Manager
 
 # Initialize any core components if needed
 # For example, set the global exception handler or initialize the logger

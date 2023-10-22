@@ -13,7 +13,7 @@ class MasterAgent:
         self.logger.info(f"Received data: {data}")
 
         # Based on the data, decide which command to run or action to take
-        command_to_run = decide_command(data['message'])
+        command_to_run = decide_command(data)
 
         # Process the command and get the response
         command_processor = CommandProcessor()

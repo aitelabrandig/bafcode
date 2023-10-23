@@ -58,7 +58,7 @@ Command-Line Interface (for BafCode CLI commands, install it using `pip install 
 
 ### Prompts:
 
-1 .**Prompts are cues used by LLMS.**
+1. **Prompts are cues used by LLMS.**
 2. **You can use prompt files wherever LLMS is utilized.**
 3. **You can modify default prompts used by the main components of the platform.**
 4. **You can also tailor default prompts employed by the central elements of the platform.**

@@ -67,7 +67,7 @@ Command-Line Interface (for BafCode CLI commands, install it using `pip install 
 ### LLMS:
 
 1. **You can use Multiple LLMs, each LLM for a specific case.**
-2. **Can be used in the APIs to generate a like humane text to be saved in a database or posted in X tweet.**
+2. **Can be used in the APIs to generate a like humane text. e.g to be saved in a database or posted in X tweet...**
 3. **Can be used by the Responder to generate a clean response based on the task list results provided by the Manager Component.**
 4. **Can be used by the agent to decide which tool to use based on the task provided by the Manager Component.**
 5. **Can be used by Manager to generate Task List based on the user requirements.**

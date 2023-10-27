@@ -1,5 +1,5 @@
 from .openai_llm import OpenAILLM
-from .example import ExampleLLm
+from .example import ExampleLLM
 from config import Config
 
 

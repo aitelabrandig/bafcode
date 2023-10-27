@@ -114,3 +114,21 @@ LLMs currently need manual configuration. Visit `config/llms_config.py` and repl
 
 
 **Congratulations, you are now empowered to efficiently craft AI agents using the BafCode Framework!**
+
+
+
+
+## Contributing to BafCode
+
+We welcome contributions to the BafCode framework! Here's a quick guide:
+
+1. **Understand the Philosophy**: BafCode emphasizes enabling developers to focus on agent functionalities, not just the components.
+2. **Fork & Branch**: Fork the repository and create a new branch for your changes.
+3. **Commit**: Make sure to write clear and meaningful commit messages.
+4. **Pull Request**: Submit a PR from your forked repository to the main BafCode repository.
+5. **Review & Feedback**: Await review from maintainers and be open to feedback.
+
+For detailed guidelines, please see our [Contribution Guide](./CONTRIBUTING.md).
+
+Your contributions help improve BafCode for all users. Thank you! 🚀🌐
+

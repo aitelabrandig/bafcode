@@ -14,11 +14,11 @@ Hello there! 🌟 Thank you for considering contributing to the BafCode Framewor
 
 1. **Familiarize Yourself**: Before making a contribution, ensure that you have a solid understanding of the BafCode Framework. If you're new, go through the [documentation](https://bafcode.com/) thoroughly.
 2. **GitHub**: The documentation source files are hosted on GitHub.
-3. **Issues**: Check out the existing [issues](#) to see if someone has already reported/fixing the same thing. If not, open a new issue.
+3. **Issues**: Check out the existing [issues](/issues) to see if someone has already reported/fixing the same thing. If not, open a new issue.
 
 ## Setting Up Your Development Environment
 
-1. **Fork the Repository**: Head to the BafCode Framework Documentation [GitHub repository](#) and click on the `Fork` button.
+1. **Fork the Repository**: Head to the BafCode Framework Documentation [GitHub repository](/) and click on the `Fork` button.
 2. **Clone Your Forked Repository**: `git clone https://github.com/<YOUR_USERNAME>/bafcode-documentation.git`
 3. **Install Necessary Dependencies**: As per the requirements mentioned in the project README.
 4. **Stay Updated**: Ensure your fork is frequently synchronized with the main repository to stay updated.

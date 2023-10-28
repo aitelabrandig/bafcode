@@ -12,8 +12,8 @@ Hello there! 🌟 Thank you for considering contributing to the BafCode Framewor
 
 ## Getting Started
 
-1. **Familiarize Yourself**: Before making a contribution, ensure that you have a solid understanding of the BafCode Framework. If you're new, go through the [documentation](#) thoroughly.
-2. **GitHub**: The documentation source files are hosted on GitHub. Make sure you have an account.
+1. **Familiarize Yourself**: Before making a contribution, ensure that you have a solid understanding of the BafCode Framework. If you're new, go through the [documentation](https://bafcode.com/) thoroughly.
+2. **GitHub**: The documentation source files are hosted on GitHub.
 3. **Issues**: Check out the existing [issues](#) to see if someone has already reported/fixing the same thing. If not, open a new issue.
 
 ## Setting Up Your Development Environment

@@ -1,9 +1,8 @@
-
-from .examples.get_example import ExamplesGetExample
+from .google.search import GoogleSearch
 
 
 
 # Define your commands  here
 command_mapping = {        
-    "examplesGetExample": ExamplesGetExample,
+    "googleSearch": GoogleSearch,
         }

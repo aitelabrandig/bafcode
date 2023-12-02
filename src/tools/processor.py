@@ -14,7 +14,7 @@ class CommandProcessor:
       
         if not command:
             self.logger.error(f"Unknown command: {command_name}")
-            raise ValueError(f"Unknown command: {command_name}")
+            return "I can't do this task because i don't have the necessary tools."
 
         response = command().execute(data)
         return response

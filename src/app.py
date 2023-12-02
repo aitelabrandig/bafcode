@@ -1,5 +1,5 @@
-from flask import Flask, request, jsonify
-from core import BafLog,MasterAgent,Responder
+from flask import Flask, request, jsonify,session
+from core import BafLog,Manager,Responder
 from config import Config
 
 
@@ -34,15 +34,18 @@ def generate():
         if not data:
             return jsonify({"status": "Error", "message": "No data provided!"}), 400
 
-        master_agent = MasterAgent()
-        response = master_agent.process(data)
+        manager = Manager()
+        response = manager.process(data)
         responder = Responder()
         final_response = responder.generate(response, data['message'])
+        session.clear()
 
         # Return the final response
         return jsonify({"status": "OK", "message": "Processed successfully!", "data": final_response}), 200
     except Exception as e:
         BafLog.error(f"Error processing the request: {str(e)}")
+        # empty the session
+        session.clear()
         return jsonify({"status": "Error", "message": "An error occurred while processing the request!"}), 500
 
 
@@ -56,4 +59,5 @@ if __name__ == "__main__":
         BafLog.info(f"App started on port {port}.")
     except Exception as e:
         BafLog.error(f"Error starting the app: {str(e)}")
+        session.clear()
         raise

@@ -24,37 +24,54 @@ Optional: Docker for containerization
 Command-Line Interface (for BafCode CLI commands, install it using `pip install bafcode`)
 
 ## Core Components ⚙️
-Agent: Contains specialized tools and LLM decision-making abilities. It determines the appropriate tool for a received message.
+### Manager:
 
-Responder: Generates precise responses based on the data provided by the agent.
-
-
-## Tools in BafCode Framework: A Deep Dive 🛠
-Within the BafCode Framework, tools play a pivotal role in the functioning of the AI agent. They act as intermediaries between the agent and external systems or services, Here's a detailed breakdown:
-
-**1. Purpose of Tools 🎯**
-Tools are essentially functions that the Agent component employs to perform designated tasks. Whether it's fetching new emails, getting weather updates, or any other operation, you can build an agent tool for that purpose.
-
-**2. Integration with APIs 🌍**
-A significant function of tools is their ability to connect with the outside world. They achieve this by utilizing APIs (Application Programming Interfaces). An API is a set of routines and protocols that allow tools to request and exchange data with external systems, services, or databases and you can customize the api of the tool in `api` folder.
+1. **Generates a Task list.**
+2. **Sends a single task to the agent.**
+3. **Receives task results.**
+4. **Saves the task result in a session with status (either Completed or Failed).**
+5. **Removes completed task from the task list and sends the next task with "pending" status to the agent.**
 
 
-For instance, if there's a tool designed to fetch the latest news headlines, it would communicate with a news service's API to retrieve this data.
-
-**3. Prompt  📝**
-Once a tool has successfully retrieved the necessary data via an API, it doesn't just hand this raw data over to the Responder. Instead, it passed inside a 'prompt' which you can customize in the `prompts` folder. This prompt provides context, ensuring that the data is presented in a manner that the Responder component can understand and utilize.
-
-**4. Interaction with the Responder 📩**
-After the prompt is returned, the Agent component passes it to the Responder component. The Responder then crafts a precise and meaningful response based on the context and information within the prompt.
-
-For example, if the tool fetched weather data indicating rain and the prompt was "The weather forecast suggests rain today. ('rain' is the retreived data from api)", the Responder might generate a response like "It's going to rain today. Don't forget your umbrella!"
-
-In essence, tools are the bridge that enables the Agent to interact with the external world, gather information, and set the stage for the Responder to deliver valuable outputs to the end-users.
-
-<img width="1340" alt="image" src="https://github.com/aitelabrandig/bafcode/assets/95383805/e0ca8624-2662-46b8-b16c-f74056a64157">
+### Agent:
+1. **Receives a task.**
+2. **Decides which tool to use based on the received task.**
+3. **Uses the tool to process the task.**
+4. **Sends the tool results to the manager.**
 
 
+### Responder:
 
+1. **Generates a good response based on the tool results.**
+2. **Returns the response to the application.**
+3. **Receives the final message from the manager.**
+
+
+### Tools:
+
+1. **Tools are used by the Agent to perform a specific Task.**
+2. **You can generally place any action function inside the tool, and it will be executed once the Agent decides to use it.**
+3. **You can typically embed any function inside the tool file, and it will be executed when the Agent opts to use it.**
+4. **The tool can utilize external APIs by coding the API logic and invoking the imported API process function in any tool file you produce.**
+
+
+
+### Prompts:
+
+1. **Prompts are cues used by LLMS.**
+2. **You can use prompt files wherever LLMS is utilized.**
+3. **You can modify default prompts used by the main components of the framework.**
+4. **You can also tailor default prompts employed by the central elements of the framework.**
+5. **It is possible to create a unique prompt for every tool or API.**
+
+### LLMS:
+
+1. **You can use Multiple LLMs, each LLM for a specific case.**
+2. **Can be used in the APIs to generate a like humane text. e.g to be saved in a database or posted in X tweet...**
+3. **Can be used by the Responder to generate a clean response based on the task list results provided by the Manager Component.**
+4. **Can be used by the agent to decide which tool to use based on the task provided by the Manager Component.**
+5. **Can be used by Manager to generate Task List based on the user requirements.**
+6. **Used By Other Components to generate a Humanistic response.**
 
 
 ## How to Build an AI Agent using BafCode 🔧

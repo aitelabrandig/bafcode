@@ -51,8 +51,7 @@ Command-Line Interface (for BafCode CLI commands, install it using `pip install 
 
 1. **Tools are used by the Agent to perform a specific Task.**
 2. **You can generally place any action function inside the tool, and it will be executed once the Agent decides to use it.**
-3. **You can typically embed any function inside the tool file, and it will be executed when the Agent opts to use it.**
-4. **The tool can utilize external APIs by coding the API logic and invoking the imported API process function in any tool file you produce.**
+3. **The tool can utilize external APIs by coding the API logic and invoking the imported API process function in any tool file you produce.**
 
 
 

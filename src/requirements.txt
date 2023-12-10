@@ -2,4 +2,5 @@ cryptography
 Flask
 requests
 python-dotenv
-openai
+openai==0.28.1
+gunicorn

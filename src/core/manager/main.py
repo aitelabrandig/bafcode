@@ -5,7 +5,7 @@ from .utils import TaskList
 class Manager:
     
     @staticmethod
-    def process(client_input):
+    def process(task, data):
         """
         Process client input and manage tasks.
 
@@ -18,7 +18,7 @@ class Manager:
         
         # Check if the task list is empty or not initialized
         if not session.get('task_list'):
-            task_list = TaskList.generateTaskList(client_input['message'])
+            task_list = TaskList.generateTaskList(task, data)
             session['task_list'] = task_list
         
         master_agent = MasterAgent()
@@ -30,7 +30,7 @@ class Manager:
                 break
 
             str_next_task = str(next_task)
-            task_result = master_agent.process(str_next_task)
+            task_result = master_agent.process(str_next_task, data)
             TaskList.saveTaskResults(task_result, next_task)
             TaskList.changeTaskStatus(next_task)
 

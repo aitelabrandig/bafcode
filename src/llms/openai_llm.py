@@ -9,8 +9,8 @@ class OpenAILLM:
         # Initialize OpenAI API key (should be kept secret and ideally loaded from a secure environment)
         openai.api_key = Config.OPENAI_API_KEY
 
-    def process(self,message,prompt):
-    
+    def process(self,message,prompt,data):
+        print("OpenAI LLM processing...")
         if not prompt:
             self.logger.error("No prompt provided for OpenAI LLM.")
             raise ValueError("A prompt is required for processing.")
@@ -30,6 +30,6 @@ class OpenAILLM:
         except Exception as e:
             self.logger.error(f"Error processing with OpenAI LLM: {str(e)}")
             return {
-                'message': "Error processing with OpenAI LLM.",
+                'message': f"Error processing with OpenAI LLM: {str(e)}",
                 'status': "error"
             }

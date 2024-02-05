@@ -11,12 +11,12 @@ logger = BafLog
 class GoogleSearchAPI:
 
     @staticmethod
-    def process(query):
+    def process(query, data):
         from llms import LLM
         from prompts import GoogleSearchPrompt
 
         prompt = GoogleSearchPrompt.google_search_prompt(query)
-        generated_query = LLM.llm.process('Generate a query', prompt)
+        generated_query = LLM.llm.process('Generate a query', prompt, data)
         print(f'Generated query: {generated_query}')
         
         params = {

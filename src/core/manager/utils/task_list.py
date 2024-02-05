@@ -12,9 +12,9 @@ class TaskList:
 
 
     @staticmethod
-    def generateTaskList(client_input):
-       prompt = ManagerPromptPrompt.manager_prompt_prompt(client_input)
-       generated_task_list = LLM.llm.process(client_input, prompt)
+    def generateTaskList(task, data):
+       prompt = ManagerPromptPrompt.manager_prompt_prompt(task)
+       generated_task_list = LLM.llm.process(task, prompt, data)
        
         # Convert the plain text JSON string to a Python list/dictionary
        task_list = json.loads(generated_task_list)

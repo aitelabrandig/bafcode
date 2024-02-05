@@ -5,7 +5,7 @@ class CommandProcessor:
     def __init__(self):
         self.logger = BafLog
 
-    def execute(self, command_name, data):
+    def execute(self, command_name, task, data):
         # Log the command execution
         self.logger.info(f"Executing command: {command_name}")
 
@@ -16,6 +16,6 @@ class CommandProcessor:
             self.logger.error(f"Unknown command: {command_name}")
             return "I can't do this task because i don't have the necessary tools."
 
-        response = command().execute(data)
+        response = command().execute(task,data)
         return response
 

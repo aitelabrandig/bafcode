@@ -1,11 +1,12 @@
  
 from core import BafLog
-from tools import command_mapping
+
 # Optionally, import any other required modules or packages
 
 class ManagerPromptPrompt:  # Replace ManagerPrompt with the name of your prompt
     
     def manager_prompt_prompt(data):
+        from tools import command_mapping
         tools_list = list(command_mapping)
         prompt = """
 

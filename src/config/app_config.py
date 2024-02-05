@@ -16,3 +16,7 @@ class AppConfig:
     PORT = int(os.environ.get('PORT', 5000))
 
     # Any other global configurations or settings can be added below
+
+
+    # Database Configuration
+    DATABASE_URI = os.environ.get('DATABASE_URI', 'sqlite:///database.db')

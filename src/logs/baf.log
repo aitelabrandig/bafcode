@@ -814,3 +814,361 @@
 2023-10-22 12:37:07,353 - core.logger - INFO - Configurations loaded successfully.
 2023-10-22 12:37:13,523 - core.logger - INFO - Configurations loaded successfully.
 2023-10-22 12:37:13,523 - core.logger - INFO - Configurations loaded successfully.
+2023-12-11 15:45:11,382 - core.logger - INFO - Configurations loaded successfully.
+2023-12-11 15:45:11,382 - core.logger - INFO - Configurations loaded successfully.
+2023-12-11 15:45:11,382 - core.logger - INFO - Configurations loaded successfully.
+2023-12-11 15:45:11,382 - core.logger - INFO - Configurations loaded successfully.
+2023-12-11 15:45:11,455 - core.logger - INFO - Configurations loaded successfully.
+2023-12-11 15:45:11,455 - core.logger - INFO - Configurations loaded successfully.
+2023-12-11 15:45:11,543 - core.logger - INFO - Configurations loaded successfully.
+2023-12-11 15:45:11,543 - core.logger - INFO - Configurations loaded successfully.
+2023-12-11 15:46:00,207 - core.logger - ERROR - Error processing the request: 'type'
+2023-12-11 15:46:00,207 - core.logger - ERROR - Error processing the request: 'type'
+2023-12-11 15:46:23,393 - core.logger - INFO - Received data: {'message': 'Write an Article about Apple', 'type': 'job'}
+2023-12-11 15:46:23,393 - core.logger - INFO - Received data: {'message': 'Write an Article about Apple', 'type': 'job'}
+2023-12-11 15:46:24,378 - core.logger - ERROR - Error processing with OpenAI LLM: '$.messages[1].content' is invalid. Please check the API reference: https://platform.openai.com/docs/api-reference.
+2023-12-11 15:46:24,378 - core.logger - ERROR - Error processing with OpenAI LLM: '$.messages[1].content' is invalid. Please check the API reference: https://platform.openai.com/docs/api-reference.
+2023-12-11 15:46:24,379 - core.logger - INFO - Executing command: {'message': 'Error processing with OpenAI LLM.', 'status': 'error'}
+2023-12-11 15:46:24,379 - core.logger - INFO - Executing command: {'message': 'Error processing with OpenAI LLM.', 'status': 'error'}
+2023-12-11 15:46:24,380 - core.logger - ERROR - Error processing the job request: unhashable type: 'dict'
+2023-12-11 15:46:24,380 - core.logger - ERROR - Error processing the job request: unhashable type: 'dict'
+2023-12-11 15:48:15,338 - core.logger - INFO - Received data: {'message': 'Write an Article about Apple', 'type': 'job'}
+2023-12-11 15:48:15,338 - core.logger - INFO - Received data: {'message': 'Write an Article about Apple', 'type': 'job'}
+2023-12-11 15:48:15,598 - core.logger - ERROR - Error processing with OpenAI LLM: '$.messages[1].content' is invalid. Please check the API reference: https://platform.openai.com/docs/api-reference.
+2023-12-11 15:48:15,598 - core.logger - ERROR - Error processing with OpenAI LLM: '$.messages[1].content' is invalid. Please check the API reference: https://platform.openai.com/docs/api-reference.
+2023-12-11 15:48:15,601 - core.logger - INFO - Executing command: {'message': 'Error processing with OpenAI LLM.', 'status': 'error'}
+2023-12-11 15:48:15,601 - core.logger - INFO - Executing command: {'message': 'Error processing with OpenAI LLM.', 'status': 'error'}
+2023-12-11 15:48:15,602 - core.logger - ERROR - Error processing the job request: unhashable type: 'dict'
+2023-12-11 15:48:15,602 - core.logger - ERROR - Error processing the job request: unhashable type: 'dict'
+2023-12-11 15:49:38,700 - core.logger - INFO - Received data: {'message': 'Write an Article about Apple', 'type': 'job'}
+2023-12-11 15:49:38,700 - core.logger - INFO - Received data: {'message': 'Write an Article about Apple', 'type': 'job'}
+2023-12-11 15:49:39,312 - core.logger - ERROR - Error processing with OpenAI LLM: '$.messages[1].content' is invalid. Please check the API reference: https://platform.openai.com/docs/api-reference.
+2023-12-11 15:49:39,312 - core.logger - ERROR - Error processing with OpenAI LLM: '$.messages[1].content' is invalid. Please check the API reference: https://platform.openai.com/docs/api-reference.
+2023-12-11 15:49:39,314 - core.logger - INFO - Executing command: {'message': 'Error processing with OpenAI LLM.', 'status': 'error'}
+2023-12-11 15:49:39,314 - core.logger - INFO - Executing command: {'message': 'Error processing with OpenAI LLM.', 'status': 'error'}
+2023-12-11 15:49:39,316 - core.logger - ERROR - Error processing the job request: unhashable type: 'dict'
+2023-12-11 15:49:39,316 - core.logger - ERROR - Error processing the job request: unhashable type: 'dict'
+2023-12-11 15:51:41,685 - core.logger - INFO - Received data: {'message': 'Write an Article about Apple', 'type': 'job'}
+2023-12-11 15:51:41,685 - core.logger - INFO - Received data: {'message': 'Write an Article about Apple', 'type': 'job'}
+2023-12-11 15:51:42,401 - core.logger - ERROR - Error processing with OpenAI LLM: '$.messages[1].content' is invalid. Please check the API reference: https://platform.openai.com/docs/api-reference.
+2023-12-11 15:51:42,401 - core.logger - ERROR - Error processing with OpenAI LLM: '$.messages[1].content' is invalid. Please check the API reference: https://platform.openai.com/docs/api-reference.
+2023-12-11 15:51:42,403 - core.logger - INFO - Executing command: {'message': 'Error processing with OpenAI LLM.', 'status': 'error'}
+2023-12-11 15:51:42,403 - core.logger - INFO - Executing command: {'message': 'Error processing with OpenAI LLM.', 'status': 'error'}
+2023-12-11 15:51:42,405 - core.logger - ERROR - Error processing the job request: unhashable type: 'dict'
+2023-12-11 15:51:42,405 - core.logger - ERROR - Error processing the job request: unhashable type: 'dict'
+2023-12-11 15:52:13,964 - core.logger - INFO - Received data: {'message': 'Write an Article about Apple', 'type': 'job'}
+2023-12-11 15:52:13,964 - core.logger - INFO - Received data: {'message': 'Write an Article about Apple', 'type': 'job'}
+2023-12-11 15:52:14,455 - core.logger - ERROR - Error processing with OpenAI LLM: '$.messages[1].content' is invalid. Please check the API reference: https://platform.openai.com/docs/api-reference.
+2023-12-11 15:52:14,455 - core.logger - ERROR - Error processing with OpenAI LLM: '$.messages[1].content' is invalid. Please check the API reference: https://platform.openai.com/docs/api-reference.
+2023-12-11 15:52:14,457 - core.logger - INFO - Executing command: {'message': 'Error processing with OpenAI LLM.', 'status': 'error'}
+2023-12-11 15:52:14,457 - core.logger - INFO - Executing command: {'message': 'Error processing with OpenAI LLM.', 'status': 'error'}
+2023-12-11 15:52:14,458 - core.logger - ERROR - Error processing the job request: unhashable type: 'dict'
+2023-12-11 15:52:14,458 - core.logger - ERROR - Error processing the job request: unhashable type: 'dict'
+2023-12-11 15:52:26,273 - core.logger - INFO - Configurations loaded successfully.
+2023-12-11 15:52:26,273 - core.logger - INFO - Configurations loaded successfully.
+2023-12-11 15:52:26,285 - core.logger - INFO - Configurations loaded successfully.
+2023-12-11 15:52:26,285 - core.logger - INFO - Configurations loaded successfully.
+2023-12-11 15:52:26,378 - core.logger - INFO - Configurations loaded successfully.
+2023-12-11 15:52:26,378 - core.logger - INFO - Configurations loaded successfully.
+2023-12-11 15:52:26,622 - core.logger - INFO - Configurations loaded successfully.
+2023-12-11 15:52:26,622 - core.logger - INFO - Configurations loaded successfully.
+2023-12-11 15:52:32,059 - core.logger - INFO - Received data: {'message': 'Write an Article about Apple', 'type': 'job'}
+2023-12-11 15:52:32,059 - core.logger - INFO - Received data: {'message': 'Write an Article about Apple', 'type': 'job'}
+2023-12-11 15:52:32,799 - core.logger - INFO - Executing command: docsWrite
+2023-12-11 15:52:32,799 - core.logger - INFO - Executing command: docsWrite
+2023-12-11 15:52:57,870 - core.logger - ERROR - Error processing the job request: [Errno 2] No such file or directory: 'storage/Apple: Innovating the World, One Device at a Time - 2023-12-11.txt'
+2023-12-11 15:52:57,870 - core.logger - ERROR - Error processing the job request: [Errno 2] No such file or directory: 'storage/Apple: Innovating the World, One Device at a Time - 2023-12-11.txt'
+2023-12-11 15:54:20,194 - core.logger - INFO - Configurations loaded successfully.
+2023-12-11 15:54:20,194 - core.logger - INFO - Configurations loaded successfully.
+2023-12-11 15:54:20,309 - core.logger - INFO - Configurations loaded successfully.
+2023-12-11 15:54:20,309 - core.logger - INFO - Configurations loaded successfully.
+2023-12-11 15:54:20,339 - core.logger - INFO - Configurations loaded successfully.
+2023-12-11 15:54:20,339 - core.logger - INFO - Configurations loaded successfully.
+2023-12-11 15:54:20,428 - core.logger - INFO - Configurations loaded successfully.
+2023-12-11 15:54:20,428 - core.logger - INFO - Configurations loaded successfully.
+2023-12-11 15:54:34,505 - core.logger - INFO - Received data: {'message': 'Write an Article about Apple', 'type': 'job'}
+2023-12-11 15:54:34,505 - core.logger - INFO - Received data: {'message': 'Write an Article about Apple', 'type': 'job'}
+2023-12-11 15:54:35,358 - core.logger - INFO - Executing command: docsWrite
+2023-12-11 15:54:35,358 - core.logger - INFO - Executing command: docsWrite
+2023-12-11 15:55:02,917 - core.logger - INFO - Generating response for data: 
+        Instructions:
+            1. Analyze the provided data.
+            2. Identify key points and themes.
+            3. Write an organized article based on the identified themes.
+            4. Ensure the article is coherent and follows a logical structure.
+            5. Use appropriate language and tone based on the context of the data.
+            6. Proofread the article for any grammatical or factual errors.
+
+            Data:
+            storage/Apple: Shaping the Future of Technology - 2023-12-11.txt
+            
+  
+        
+2023-12-11 15:55:02,917 - core.logger - INFO - Generating response for data: 
+        Instructions:
+            1. Analyze the provided data.
+            2. Identify key points and themes.
+            3. Write an organized article based on the identified themes.
+            4. Ensure the article is coherent and follows a logical structure.
+            5. Use appropriate language and tone based on the context of the data.
+            6. Proofread the article for any grammatical or factual errors.
+
+            Data:
+            storage/Apple: Shaping the Future of Technology - 2023-12-11.txt
+            
+  
+        
+2023-12-11 15:55:06,298 - core.logger - INFO - Configurations loaded successfully.
+2023-12-11 15:55:06,298 - core.logger - INFO - Configurations loaded successfully.
+2023-12-11 15:59:55,344 - core.logger - INFO - Received data: {'message': 'Create a report of what i did today: 1 - Go To Work 2- Finish the Sam Deal', 'type': 'job'}
+2023-12-11 15:59:55,344 - core.logger - INFO - Received data: {'message': 'Create a report of what i did today: 1 - Go To Work 2- Finish the Sam Deal', 'type': 'job'}
+2023-12-11 15:59:56,274 - core.logger - INFO - Executing command: docsWrite
+2023-12-11 15:59:56,274 - core.logger - INFO - Executing command: docsWrite
+2023-12-11 16:00:16,349 - core.logger - INFO - Generating response for data: 
+        Instructions:
+            1. Analyze the provided data.
+            2. Identify key points and themes.
+            3. Write an organized article based on the identified themes.
+            4. Ensure the article is coherent and follows a logical structure.
+            5. Use appropriate language and tone based on the context of the data.
+            6. Proofread the article for any grammatical or factual errors.
+
+            Data:
+            storage/A Productive Day: Balancing Work and Accomplishments - 2023-12-11.txt
+            
+  
+        
+2023-12-11 16:00:16,349 - core.logger - INFO - Generating response for data: 
+        Instructions:
+            1. Analyze the provided data.
+            2. Identify key points and themes.
+            3. Write an organized article based on the identified themes.
+            4. Ensure the article is coherent and follows a logical structure.
+            5. Use appropriate language and tone based on the context of the data.
+            6. Proofread the article for any grammatical or factual errors.
+
+            Data:
+            storage/A Productive Day: Balancing Work and Accomplishments - 2023-12-11.txt
+            
+  
+        
+2023-12-11 16:00:26,960 - core.logger - INFO - Configurations loaded successfully.
+2023-12-11 16:00:26,960 - core.logger - INFO - Configurations loaded successfully.
+2023-12-11 16:00:26,961 - core.logger - INFO - Configurations loaded successfully.
+2023-12-11 16:00:26,961 - core.logger - INFO - Configurations loaded successfully.
+2023-12-11 16:00:26,962 - core.logger - INFO - Configurations loaded successfully.
+2023-12-11 16:00:26,962 - core.logger - INFO - Configurations loaded successfully.
+2023-12-11 16:00:26,964 - core.logger - INFO - Received data: {'message': 'Create a report of what i did today: 1 - Go To Work 2- Finish the Sam Deal', 'type': 'job'}
+2023-12-11 16:00:26,964 - core.logger - INFO - Received data: {'message': 'Create a report of what i did today: 1 - Go To Work 2- Finish the Sam Deal', 'type': 'job'}
+2023-12-11 16:00:26,972 - core.logger - INFO - Configurations loaded successfully.
+2023-12-11 16:00:26,972 - core.logger - INFO - Configurations loaded successfully.
+2023-12-11 16:00:27,831 - core.logger - INFO - Executing command: docsWrite
+2023-12-11 16:00:27,831 - core.logger - INFO - Executing command: docsWrite
+2023-12-11 16:00:49,000 - core.logger - INFO - Generating response for data:  
+     The Document is created successfully and stored in the storage directory.
+     path: storage/Report of Activities - 2023-12-11.txt
+    
+    
+2023-12-11 16:00:49,000 - core.logger - INFO - Generating response for data:  
+     The Document is created successfully and stored in the storage directory.
+     path: storage/Report of Activities - 2023-12-11.txt
+    
+    
+2024-02-05 08:06:22,088 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:06:22,088 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:06:22,097 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:06:22,097 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:06:22,098 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:06:22,098 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:06:22,115 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:06:22,115 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:08:25,168 - core.logger - INFO - Received data: Write about Jeff Bezos
+2024-02-05 08:08:25,168 - core.logger - INFO - Received data: Write about Jeff Bezos
+2024-02-05 08:08:25,174 - core.logger - ERROR - Error processing the job request: string indices must be integers, not 'str'
+2024-02-05 08:08:25,174 - core.logger - ERROR - Error processing the job request: string indices must be integers, not 'str'
+2024-02-05 08:10:25,126 - core.logger - INFO - Received data: Write about Jeff Bezos
+2024-02-05 08:10:25,126 - core.logger - INFO - Received data: Write about Jeff Bezos
+2024-02-05 08:10:25,128 - core.logger - ERROR - Error processing the job request: string indices must be integers, not 'str'
+2024-02-05 08:10:25,128 - core.logger - ERROR - Error processing the job request: string indices must be integers, not 'str'
+2024-02-05 08:10:43,085 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:10:43,085 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:10:43,086 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:10:43,086 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:10:43,108 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:10:43,108 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:10:43,146 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:10:43,146 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:10:51,955 - core.logger - INFO - Received data: Write about Jeff Bezos
+2024-02-05 08:10:51,955 - core.logger - INFO - Received data: Write about Jeff Bezos
+2024-02-05 08:10:53,354 - core.logger - INFO - Executing command: docsWrite
+2024-02-05 08:10:53,354 - core.logger - INFO - Executing command: docsWrite
+2024-02-05 08:10:53,355 - core.logger - ERROR - Error processing the job request: DocsWrite.execute() takes 2 positional arguments but 3 were given
+2024-02-05 08:10:53,355 - core.logger - ERROR - Error processing the job request: DocsWrite.execute() takes 2 positional arguments but 3 were given
+2024-02-05 08:24:49,876 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:24:49,876 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:24:49,885 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:24:49,885 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:24:49,979 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:24:49,979 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:24:49,989 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:24:49,989 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:25:01,691 - core.logger - INFO - Received data: Write about Jeff Bezos
+2024-02-05 08:25:01,691 - core.logger - INFO - Received data: Write about Jeff Bezos
+2024-02-05 08:25:03,030 - core.logger - INFO - Executing command: docsWrite
+2024-02-05 08:25:03,030 - core.logger - INFO - Executing command: docsWrite
+2024-02-05 08:25:34,175 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:25:34,175 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:28:59,938 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:28:59,938 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:28:59,938 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:28:59,938 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:29:00,322 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:29:00,322 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:29:00,383 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:29:00,383 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:29:07,493 - core.logger - INFO - Received data: Write about Jeff Bezos
+2024-02-05 08:29:07,493 - core.logger - INFO - Received data: Write about Jeff Bezos
+2024-02-05 08:29:08,883 - core.logger - INFO - Executing command: docsWrite
+2024-02-05 08:29:08,883 - core.logger - INFO - Executing command: docsWrite
+2024-02-05 08:29:36,566 - core.logger - INFO - Generating response for data: {'message': 'Write about Jeff Bezos', 'type': 'single', 'config': {'twitter_api_key': 'oIAnaovF3F4ihgOKmFnm5pfhT', 'twitter_api_secret': 'v0Qrc6REDk0T55FaTvZJCtSi77h5CNXuFNyEh8svjstKE1JF8t', 'twitter_access_token': '1716094629441929216-Uft0XRlpJjE7M9M892bANxXc2ZQ9d3', 'twitter_access_token_secret': 'oZLCNAFO5OGRIWr82tubgg9egmR9szN3YsqquYJeENDcw', 'twitter_bearer_token': 'AAAAAAAAAAAAAAAAAAAAAKy4qgEAAAAAGn05Pyy4dvLqj38lC4tPrT0KjGs%3DXvFMVTB4hhbzzp1mKawmrLt1WC1KQhm5be5yzmRw83t4T9G3ub'}, 'llm_uuid': '47dba5c4-db12-4400-b5ee-28298907832f', 'key_id': 'FdT2X6T5cy168ykq89cnZhcDnbcWBgXM', 'key_value': 'seqk1y6DVNGDkVRJegQEFrLGXLU8O3MXyxuqhnmbkXEaMTYJy0uM65Idiyc2F6Ie', 'agent_uuid': '123e4567-e89b-12d3-a456-426614174000', 'project': {'org_uuid': 'org_ShrvFaqbXgjoNTw0'}, 'deployment': {'data': {'body': {'messages': [{'content': '', 'role': 'user'}], 'model': 'gpt-4'}, 'endpoint': 'https://api.openai.com/v1/chat/completions', 'headers': {'Content-Type': 'application/json', 'Authorization': 'Bearer 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'}, 'parameters': []}, 'endpoint': 'https://api.openai.com/v1/chat/completions', 'id': 1, 'isShared': None, 'message': '', 'model_id': '47dba5c4-db12-4400-b5ee-28298907832f', 'name': 'gpt-4-32k', 'org_uuid': 'org_ShrvFaqbXgjoNTw0', 'status': None, 'uuid': '47dba5c4-db12-4400-b5ee-282989078fhg'}}
+2024-02-05 08:29:36,566 - core.logger - INFO - Generating response for data: {'message': 'Write about Jeff Bezos', 'type': 'single', 'config': {'twitter_api_key': 'oIAnaovF3F4ihgOKmFnm5pfhT', 'twitter_api_secret': 'v0Qrc6REDk0T55FaTvZJCtSi77h5CNXuFNyEh8svjstKE1JF8t', 'twitter_access_token': '1716094629441929216-Uft0XRlpJjE7M9M892bANxXc2ZQ9d3', 'twitter_access_token_secret': 'oZLCNAFO5OGRIWr82tubgg9egmR9szN3YsqquYJeENDcw', 'twitter_bearer_token': 'AAAAAAAAAAAAAAAAAAAAAKy4qgEAAAAAGn05Pyy4dvLqj38lC4tPrT0KjGs%3DXvFMVTB4hhbzzp1mKawmrLt1WC1KQhm5be5yzmRw83t4T9G3ub'}, 'llm_uuid': '47dba5c4-db12-4400-b5ee-28298907832f', 'key_id': 'FdT2X6T5cy168ykq89cnZhcDnbcWBgXM', 'key_value': 'seqk1y6DVNGDkVRJegQEFrLGXLU8O3MXyxuqhnmbkXEaMTYJy0uM65Idiyc2F6Ie', 'agent_uuid': '123e4567-e89b-12d3-a456-426614174000', 'project': {'org_uuid': 'org_ShrvFaqbXgjoNTw0'}, 'deployment': {'data': {'body': {'messages': [{'content': '', 'role': 'user'}], 'model': 'gpt-4'}, 'endpoint': 'https://api.openai.com/v1/chat/completions', 'headers': {'Content-Type': 'application/json', 'Authorization': 'Bearer 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'}, 'parameters': []}, 'endpoint': 'https://api.openai.com/v1/chat/completions', 'id': 1, 'isShared': None, 'message': '', 'model_id': '47dba5c4-db12-4400-b5ee-28298907832f', 'name': 'gpt-4-32k', 'org_uuid': 'org_ShrvFaqbXgjoNTw0', 'status': None, 'uuid': '47dba5c4-db12-4400-b5ee-282989078fhg'}}
+2024-02-05 08:29:39,510 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:29:39,510 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:31:10,774 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:31:10,774 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:31:10,778 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:31:10,778 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:31:11,174 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:31:11,174 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:31:11,369 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:31:11,369 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:31:41,522 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:31:41,522 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:31:41,522 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:31:41,522 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:31:41,864 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:31:41,864 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:31:41,954 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:31:41,954 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:31:43,009 - core.logger - INFO - Received data: Write about Jeff Bezos
+2024-02-05 08:31:43,009 - core.logger - INFO - Received data: Write about Jeff Bezos
+2024-02-05 08:31:44,148 - core.logger - INFO - Executing command: docsWrite
+2024-02-05 08:31:44,148 - core.logger - INFO - Executing command: docsWrite
+2024-02-05 08:32:11,886 - core.logger - INFO - Generating response for data:  
+     The Document is created successfully and stored in the storage directory.
+     path: storage/Jeff Bezos: A Journey of Innovation, Customer Obsession, and Risk-Taking - 2024-02-05.txt
+    
+    
+2024-02-05 08:32:11,886 - core.logger - INFO - Generating response for data:  
+     The Document is created successfully and stored in the storage directory.
+     path: storage/Jeff Bezos: A Journey of Innovation, Customer Obsession, and Risk-Taking - 2024-02-05.txt
+    
+    
+2024-02-05 08:32:14,908 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:32:14,908 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:33:35,703 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:33:35,703 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:33:35,703 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:33:35,703 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:33:36,122 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:33:36,122 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:33:36,165 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:33:36,165 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:33:47,286 - core.logger - INFO - Received data: Write about Jeff Bezos
+2024-02-05 08:33:47,286 - core.logger - INFO - Received data: Write about Jeff Bezos
+2024-02-05 08:33:48,300 - core.logger - INFO - Executing command: docsWrite
+2024-02-05 08:33:48,300 - core.logger - INFO - Executing command: docsWrite
+2024-02-05 08:34:18,987 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 08:34:18,987 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 09:17:00,893 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 09:17:00,893 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 09:17:00,913 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 09:17:00,913 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 09:17:00,959 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 09:17:00,959 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 09:17:00,978 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 09:17:00,978 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 09:20:11,776 - core.logger - INFO - Received data: Write about Jeff Bezos
+2024-02-05 09:20:11,776 - core.logger - INFO - Received data: Write about Jeff Bezos
+2024-02-05 09:20:12,666 - core.logger - INFO - Executing command: docsWrite
+2024-02-05 09:20:12,666 - core.logger - INFO - Executing command: docsWrite
+2024-02-05 09:20:44,397 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 09:20:44,397 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 09:21:23,816 - core.logger - INFO - Received data: Write about Jeff Bezos
+2024-02-05 09:21:23,816 - core.logger - INFO - Received data: Write about Jeff Bezos
+2024-02-05 09:21:24,660 - core.logger - INFO - Executing command: docsWrite
+2024-02-05 09:21:24,660 - core.logger - INFO - Executing command: docsWrite
+2024-02-05 09:21:55,719 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 09:21:55,719 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 09:22:18,054 - core.logger - INFO - Received data: Search about Jef Besoz
+2024-02-05 09:22:18,054 - core.logger - INFO - Received data: Search about Jef Besoz
+2024-02-05 09:22:19,258 - core.logger - INFO - Executing command: googleSearch
+2024-02-05 09:22:19,258 - core.logger - INFO - Executing command: googleSearch
+2024-02-05 09:22:20,829 - core.logger - INFO - Generating response for data: [{'title': 'Jeff Bezos - Wikipedia', 'link': 'https://en.wikipedia.org/wiki/Jeff_Bezos', 'description': 'He was the wealthiest from 2017 to 2021, according to both the Bloomberg Billionaires Index and Forbes. Jeff Bezos. Bezos at the LAAFB SMC in 2017. Born.'}, {'title': 'Jeff Bezos (@JeffBezos) / X', 'link': 'https://twitter.com/jeffbezos?lang=en', 'description': "Jeff Bezos's posts ... Huntsville Engine Production Facility! ... is proud to partner with Blue Origin, especially on the Blue Moon human landing system, which will\xa0..."}]
+2024-02-05 09:22:20,829 - core.logger - INFO - Generating response for data: [{'title': 'Jeff Bezos - Wikipedia', 'link': 'https://en.wikipedia.org/wiki/Jeff_Bezos', 'description': 'He was the wealthiest from 2017 to 2021, according to both the Bloomberg Billionaires Index and Forbes. Jeff Bezos. Bezos at the LAAFB SMC in 2017. Born.'}, {'title': 'Jeff Bezos (@JeffBezos) / X', 'link': 'https://twitter.com/jeffbezos?lang=en', 'description': "Jeff Bezos's posts ... Huntsville Engine Production Facility! ... is proud to partner with Blue Origin, especially on the Blue Moon human landing system, which will\xa0..."}]
+2024-02-05 09:22:28,169 - core.logger - INFO - Generated response: I have found some information on Jeff Bezos for you. 
+
+Jeff Bezos is a well-known entrepreneur and the founder of Amazon.com. He was the wealthiest person in the world from 2017 to 2021, according to both the Bloomberg Billionaires Index and Forbes. 
+
+If you would like to know more about Jeff Bezos, you can visit his Wikipedia page [here](https://en.wikipedia.org/wiki/Jeff_Bezos). 
+
+You can also check out Jeff Bezos's posts and updates on his Twitter account [here](https://twitter.com/jeffbezos?lang=en). One recent post includes an announcement about Blue Origin's partnership with Huntsville Engine Production Facility. They are proud to partner on the Blue Moon human landing system.
+2024-02-05 09:22:28,169 - core.logger - INFO - Generated response: I have found some information on Jeff Bezos for you. 
+
+Jeff Bezos is a well-known entrepreneur and the founder of Amazon.com. He was the wealthiest person in the world from 2017 to 2021, according to both the Bloomberg Billionaires Index and Forbes. 
+
+If you would like to know more about Jeff Bezos, you can visit his Wikipedia page [here](https://en.wikipedia.org/wiki/Jeff_Bezos). 
+
+You can also check out Jeff Bezos's posts and updates on his Twitter account [here](https://twitter.com/jeffbezos?lang=en). One recent post includes an announcement about Blue Origin's partnership with Huntsville Engine Production Facility. They are proud to partner on the Blue Moon human landing system.
+2024-02-05 09:23:08,728 - core.logger - ERROR - Error processing the start request: OpenAILLM.process() missing 1 required positional argument: 'data'
+2024-02-05 09:23:08,728 - core.logger - ERROR - Error processing the start request: OpenAILLM.process() missing 1 required positional argument: 'data'
+2024-02-05 09:27:14,875 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 09:27:14,876 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 09:27:14,875 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 09:27:14,876 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 09:27:15,126 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 09:27:15,126 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 09:27:15,314 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 09:27:15,314 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 09:27:23,658 - core.logger - INFO - Received data: {'id': 'T001', 'description': 'Use googleSearch tool to search for information about Jeff Bezos', 'status': 'pending', 'results': ''}
+2024-02-05 09:27:23,658 - core.logger - INFO - Received data: {'id': 'T001', 'description': 'Use googleSearch tool to search for information about Jeff Bezos', 'status': 'pending', 'results': ''}
+2024-02-05 09:27:24,678 - core.logger - INFO - Executing command: googleSearch
+2024-02-05 09:27:24,678 - core.logger - INFO - Executing command: googleSearch
+2024-02-05 09:27:27,189 - core.logger - INFO - Received data: {'id': 'T002', 'description': 'Use docsWrite tool to write a document about Jeff Bezos', 'status': 'pending', 'results': ''}
+2024-02-05 09:27:27,189 - core.logger - INFO - Received data: {'id': 'T002', 'description': 'Use docsWrite tool to write a document about Jeff Bezos', 'status': 'pending', 'results': ''}
+2024-02-05 09:27:28,043 - core.logger - INFO - Executing command: docsWrite
+2024-02-05 09:27:28,043 - core.logger - INFO - Executing command: docsWrite
+2024-02-05 09:27:50,723 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 09:27:50,723 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 09:31:09,795 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 09:31:09,795 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 09:31:09,802 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 09:31:09,802 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 09:31:09,919 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 09:31:09,919 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 09:31:10,089 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 09:31:10,089 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 09:31:33,278 - core.logger - INFO - Received data: {'id': 'T002', 'description': 'Read and research about Jeff Bezos', 'status': 'in-progress', 'results': ''}
+2024-02-05 09:31:33,278 - core.logger - INFO - Received data: {'id': 'T002', 'description': 'Read and research about Jeff Bezos', 'status': 'in-progress', 'results': ''}
+2024-02-05 09:31:34,879 - core.logger - INFO - Executing command: docsWrite
+2024-02-05 09:31:34,879 - core.logger - INFO - Executing command: docsWrite
+2024-02-05 09:31:51,989 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 09:31:51,989 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 09:33:36,439 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 09:33:36,439 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 09:33:36,446 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 09:33:36,446 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 09:33:36,501 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 09:33:36,501 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 09:33:36,699 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 09:33:36,699 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 09:33:57,822 - core.logger - INFO - Received data: {'id': 'T001', 'description': 'Search about Jef Besoz on Google', 'status': 'pending', 'results': ''}
+2024-02-05 09:33:57,822 - core.logger - INFO - Received data: {'id': 'T001', 'description': 'Search about Jef Besoz on Google', 'status': 'pending', 'results': ''}
+2024-02-05 09:33:58,701 - core.logger - INFO - Executing command: googleSearch
+2024-02-05 09:33:58,701 - core.logger - INFO - Executing command: googleSearch
+2024-02-05 09:34:01,907 - core.logger - INFO - Received data: {'id': 'T002', 'description': 'Write a document about Jef Besoz', 'status': 'pending', 'results': ''}
+2024-02-05 09:34:01,907 - core.logger - INFO - Received data: {'id': 'T002', 'description': 'Write a document about Jef Besoz', 'status': 'pending', 'results': ''}
+2024-02-05 09:34:03,475 - core.logger - INFO - Executing command: docsWrite
+2024-02-05 09:34:03,475 - core.logger - INFO - Executing command: docsWrite
+2024-02-05 09:34:25,432 - core.logger - INFO - Configurations loaded successfully.
+2024-02-05 09:34:25,432 - core.logger - INFO - Configurations loaded successfully.

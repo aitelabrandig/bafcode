@@ -6,15 +6,15 @@ class Responder:
     def __init__(self):
         self.logger = BafLog
 
-    def generate(self,data,message):
+    def generate(self,results,task,data):
 
         try:
             # Log the received data (might be useful for debugging, but ensure no sensitive data is logged)
-            self.logger.info(f"Generating response for data: {data}")
-            # stringify the data
-            data = str(data)
-            prompt = ResponderPrompt.generate_final_response(data)
-            response = LLM.llm.process(message,prompt)
+            self.logger.info(f"Generating response for data: {results}")
+
+            prompt = ResponderPrompt.generate_final_response(results)
+            response = LLM.llm.process(task,prompt,data)
+            self.logger.info(f"Generated response: {response}")
             return response
 
         except Exception as e:

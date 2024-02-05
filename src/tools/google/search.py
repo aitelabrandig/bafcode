@@ -10,9 +10,9 @@ class GoogleSearch:
   def __init__(self):
      self.logger = BafLog
 
-  def execute(self, data):
+  def execute(self, task, data):
     # Process data here
-    response = GoogleSearchAPI.process(data)
+    response = GoogleSearchAPI.process(task,data)
 
     return response
 

@@ -7,11 +7,12 @@ import re
 
 
 
-def decide_command(message):
+def decide_command(task,data):
+    print('Task : ',task)
     commands = list(command_mapping.keys())
     prompt = MasterPrompts.decide_command_prompt(commands)
-    print('Message: ',message)
-    llm_response = LLM.llm.process(message,prompt)
+    print('Message: ',task)
+    llm_response = LLM.llm.process(task,prompt,data)
     command = llm_response
     print('Command: ',command)
     return command

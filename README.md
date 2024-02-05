@@ -80,22 +80,10 @@ Use the BafCode CLI to kickstart your project.
 
 ```cmd
 pip install bafcode
-bafcode setup
+bafcode setup <project_name>
+cd <project_name>/src
 ```
 
-**Docker Configuration (Optional) 🐳**
-For Docker enthusiasts, use Docker and docker-compose for easier framework deployment.
-
-```cmd
-docker-compose up -d
-``` 
-**Manual Initialization 📂**
-Prefer a hands-on approach? Navigate to the src directory and start the framework.
-
-```cmd
-cd src
-bafcode start
-```
 **Develop Your Tool 🛠**
 Begin by crafting your desired tool. Initialize a file within the tools directory. For larger agents, categorize related tools into subdirectories.
 
@@ -115,13 +103,50 @@ bafcode make llm <your_llm_name>
 ```
 The LLM file will be created in the `llms` directory. You're welcome to incorporate your desired LLM logic into it.
 
+
+
+
+
 **Agent Running 🚀**
 With all components ready, launch the agent.
 
+
+***Docker Configuration (Optional) 🐳***
+For Docker enthusiasts, use Docker and docker-compose for easier framework deployment.
+
 ```cmd
-python app.py or bafcode start
+docker-compose up -d
+``` 
+***Manual Initialization 📂***
+Prefer a hands-on approach? Navigate to the src directory and start the framework.
+
+```cmd
+cd src
+bafcode start or
+python app.py
 ```
-For testing, employ Postman to send a POST request to the `/generate` endpoint with your message.
+## For testing, employ Postman to send a POST request to the `/generate` endpoint with your message.
+**Request Examples 📬**
+To interact with your AI agent, you can send a POST request to the `/generate` endpoint. Here are some examples:
+
+***Single Mode***
+In single mode, the agent processes one task at a time. Here's an example of a request in single mode:
+
+```json
+{
+  "message":"Your message here",  
+  "mode": "single",
+}
+```
+
+***Multiple Mode***
+In Multiple Mode, the manager creates a list of tasks and begins to dispatch them individually to the agent. Below is an example of a request in multiple mode:
+```json
+{
+  "message":"Your message here",  
+  "mode": "multiple",
+}
+```
 
 **Additional Notes 📝**
 When developing tools, often you won't need to alter the tool logic. The bafcode make command takes care of importing and generating essentials like prompts and APIs.
